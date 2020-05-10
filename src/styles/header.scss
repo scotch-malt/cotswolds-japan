@@ -1,0 +1,15 @@
+.header {
+    padding: 0 20px;
+    &-container {
+        padding: 10px 0;
+        &-logo {
+            width: 140px;
+        }
+    }
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
