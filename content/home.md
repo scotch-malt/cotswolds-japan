@@ -1,6 +1,6 @@
 ---
 date: 2020-05-10
-title: "Home"
+title: "ABOUT"
 tags: ["home"]
 published: true
 pagetype: "home"

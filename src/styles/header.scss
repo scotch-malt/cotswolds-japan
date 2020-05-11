@@ -1,13 +1,46 @@
 .header {
-    padding: 0 20px;
-    &-container {
-        padding: 10px 0;
-        &-logo {
-            width: 140px;
-        }
+    &-logo {
+        width: 140px;
     }
 }
 
+
+
+// .header {
+//     padding: 5px 40px;
+//     background-color: lightgrey;
+//     &-container {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         &-logo {
+//             width: 140px;
+//         }
+//         &-menu { 
+//             font-family: "Raleway"; 
+//             width: 375px;
+//             display: flex;
+//             justify-content: space-around;    
+//             &-editable {
+//                 width: 250px;
+//                 display: flex;
+//                 justify-content: space-around;
+//                 &-links {
+//                     text-decoration: none;
+//                     color: #4A4A4A;
+//                     font-weight: 700;
+//                 }
+//             }
+//             &-fixed {
+//                 &-links {
+//                     text-decoration: none;
+//                     color: #4A4A4A;
+//                     font-weight: 700; 
+//                 }
+//             }   
+//         }
+//     }
+// }
 
 .responsive {
     width: 100%;
