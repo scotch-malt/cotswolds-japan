@@ -2,8 +2,88 @@
 
 html, body {
   margin: 0;
+  overflow-x: hidden;
 }
 
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 98px;
+  &-top-content {
+    display: flex;
+    &-carousel {
+      width: 50%;
+      & img {
+        filter: brightness(80%);
+      }
+      & p {
+        font-size: 1.5rem;
+      }
+    }
+    &-description {
+      width: 50%;
+      padding: 80px 0;
+      &-text {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        &-heading {
+          font-family: "Libre Baskerville", serif;
+          font-style: italic; 
+        }
+        &-divider {
+          // border-top: 1px solid #000000;
+          // background: transparent;
+          width: 50%;
+          margin: auto;
+        }
+        &-main {
+          font-family: Raleway;
+        }
+      }
+    }
+  }
+  &-middle-content {
+    &-awards {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 75%;
+      margin: auto;
+      padding: 30px;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-body-top-content {
+    flex-direction: column;
+    &-description {
+      padding: 20px 0;
+      width: 100%;
+      &-text {
+        &-heading {
+          font-size: 1.5rem;
+          padding: 10px 0;
+        }
+        &-main {
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  .main-body-top-content-carousel {
+    width: 100%;
+  }
+}
 // html {
 //     font-family: sans-serif;
 //     -ms-text-size-adjust: 100%;

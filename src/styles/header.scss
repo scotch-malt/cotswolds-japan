@@ -1,10 +1,19 @@
 .header {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    
+}
+
+.header-nav {
+    box-shadow: 1px 1px 3px lightgray;
     &-logo {
         width: 140px;
     }
     &-links {
         color: #4A4A4A;
         font-weight: 700;
+        padding: 0 10px;
         &:hover {
             color: #C3A91B;
             text-decoration: none;
@@ -12,43 +21,6 @@
     }
 }
 
-
-
-// .header {
-//     padding: 5px 40px;
-//     background-color: lightgrey;
-//     &-container {
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//         &-logo {
-//             width: 140px;
-//         }
-//         &-menu { 
-//             font-family: "Raleway"; 
-//             width: 375px;
-//             display: flex;
-//             justify-content: space-around;    
-//             &-editable {
-//                 width: 250px;
-//                 display: flex;
-//                 justify-content: space-around;
-//                 &-links {
-//                     text-decoration: none;
-//                     color: #4A4A4A;
-//                     font-weight: 700;
-//                 }
-//             }
-//             &-fixed {
-//                 &-links {
-//                     text-decoration: none;
-//                     color: #4A4A4A;
-//                     font-weight: 700; 
-//                 }
-//             }   
-//         }
-//     }
-// }
 
 .responsive {
     width: 100%;

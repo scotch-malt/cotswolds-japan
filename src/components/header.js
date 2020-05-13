@@ -33,43 +33,35 @@ const Header = () => {
       const pages = data.allMarkdownRemark.edges 
       console.log(pages)
     return (
-          <Navbar className="header" collapseOnSelect expand="lg" bg="light" variant="light">
+        <div className="header">
+          <Navbar className="header-nav" collapseOnSelect expand="lg" bg="white" variant="light">
             <div class="navbar-brand">
-              <div className="header-logo">
+              <div className="header-nav-logo">
                 <Link to="/"><img className="responsive" src={Logo} alt=""/></Link>
               </div>
             </div>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-            </Nav>
-            <Nav>
-              <div class="nav-link active">
-                <Link className="header-links" to={pages[2].node.fields.slug}>{pages[2].node.frontmatter.title}</Link>
-              </div>
-              <div class="nav-link active">
-                <Link className="header-links" to="/contact">CONTACT</Link> 
-              </div>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        // <div className="header">
-        //     <div className="header-container">
-        //         <div className="header-container-logo">
-        //           <Link to="/"><img className="responsive" src={Logo} alt=""/></Link>
-        //         </div>
-        //         <div className="header-container-menu">
-        //           <div className="header-container-menu-editable">
-        //             {pages.map(page => {
-        //                   return <Link to={page.node.fields.slug} className="header-container-menu-editable-links">{page.node.frontmatter.title}</Link>
-        //               })}
-        //           </div>
-        //           <div className="header-container-menu-fixed">
-        //              <Link to="/contact" className="header-container-menu-fixed-links">CONTACT</Link>
-        //           </div> 
-        //         </div>
-        //     </div>
-        // </div>
+              <Nav className="mr-auto">
+              </Nav>
+              <Nav>
+                <div class="nav-link active">
+                  <Link className="header-nav-links" to={pages[2].node.fields.slug}>{pages[2].node.frontmatter.title}</Link>
+                </div>
+                <div class="nav-link active">
+                  <Link className="header-nav-links" to={pages[0].node.fields.slug}>{pages[0].node.frontmatter.title}</Link>
+                </div>
+                <div class="nav-link active">
+                  <Link className="header-nav-links" to={pages[1].node.fields.slug}>{pages[1].node.frontmatter.title}</Link>
+                </div>
+                <div class="nav-link active">
+                  <Link className="header-nav-links" to="/contact">CONTACT</Link> 
+                </div>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
+
     );
 }
 export default Header;
