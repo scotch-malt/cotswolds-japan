@@ -19,6 +19,8 @@ import SF from "../images/awards/SFWSC-Double-Gold_3_768x.jpg";
 import TM from "../images/awards/Taste_Master_2019_GIN_100.jpg";
 import WG from "../images/awards/world-gin-2016-100.jpg";
 import WWA from "../images/awards/WWA19-CatWinner_732x.jpg";
+import WhiskyStill from "../images/whisky_and_still.jpg";
+import GinStill from "../images/gin_and_still.jpg";
 
 const Index = () => {
     return (
@@ -76,7 +78,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className="main-body-middle-content">
-                    <div className="main-body-middle-content-awards w-75">
+                    <div className="main-body-middle-content-awards">
                         <img width={90} src={SF} alt=""/>
                         <img width={90} src={WSC} alt=""/>
                         <img width={90} src={JBC} alt=""/>
@@ -88,6 +90,21 @@ const Index = () => {
                         <img width={90} src={WB} alt=""/>
                         <img width={90} src={TR} alt=""/>
                         <img width={90} src={IWSC_Gold} alt=""/>
+                    </div>
+                    <div className="main-body-middle-content-products">
+                        <div className="main-body-middle-content-products-wrapper">
+                            <h2 className="text-center">Our Whiskies</h2>
+                            <a className="product-links" href="#" >
+                                <img src={WhiskyStill} alt="" className="img-fluid"/>
+                            </a>
+                        </div>
+                        <p className="spacer" />
+                        <div className="main-body-middle-content-products-wrapper">    
+                            <h2 className="text-center">Our Gins</h2>
+                            <a className="product-links" href="/contact">
+                                <img src={GinStill} alt="" className="img-fluid"/>
+                            </a> 
+                        </div>            
                     </div>
                 </div>
                 <div className="footer bg-light">
