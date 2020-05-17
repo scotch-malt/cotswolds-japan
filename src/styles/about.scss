@@ -1,0 +1,176 @@
+.about {
+    padding-top: 98px;
+    &-banner {
+        width: 100%;
+        &-mobile-image {
+            display: none;
+        }
+        &-text {
+            position: absolute;
+            color: white;
+            border-bottom: 2px solid;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &-page-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 75px 25px;
+        &-heading {
+            text-align: center;
+            font-family: "Libre Baskerville";
+            font-style: italic;
+            font-size: 24px;
+            line-height: 1.5em;
+            box-sizing: border-box;
+        }
+        & hr {
+            border-top: 1px solid;
+            margin: 40px 0;
+        }
+        &-product {
+            width: 100%;
+            display: flex;
+            margin-top: 50px;
+            align-items: center;
+            &-image {
+                width: 50%;
+            }
+            &-description {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                & h3 {
+                    margin-top: 30px;
+                }
+                &-body {
+                    margin: 40px 0;
+                }
+            }
+        }
+        &-divider {
+            text-align: center;
+            padding-top: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            & hr {
+                flex-grow: .4;
+            }
+        }
+        &-crafting {
+            &-whisky {
+                & h1 {
+                    text-align: center;
+                }
+                &-harvest {
+                    width: 100%;
+                    padding: 20px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &-images {
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-around;
+                        &-image {
+                            width: 45%;
+                            box-shadow: 1px 1px 5px;
+                        }
+                    }
+                    &-description {
+                        width: 50%;
+                        display: flex;
+                        align-items: center;
+                        &-body {
+                            width: 90%;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            &-gin {
+                & h1 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .about {
+        &-banner {
+            &-text {
+                top: 25%
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .about {
+        &-banner {
+            &-text {
+                top: 20%;
+                font-size: 1.75rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        &-page-wrapper {
+            &-product {
+                flex-direction: column;
+                &-image {
+                    width: 100%;
+                }
+                &-description {
+                    width: 100%;
+                }
+            }
+            &-divider {
+                padding-top: 30px;
+            }
+            &-crafting {
+                &-whisky {
+                    &-harvest {
+                        flex-direction: column;
+                        &-images {
+                            padding: 20px 0;
+                            width: 100%;
+                        }
+                        &-description {
+                            width: 100%;
+                            padding: 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about {
+        &-banner {
+            &-full-image {
+               display: none; 
+            }
+            &-mobile-image {
+                display: block;
+            }
+            &-text {
+                top: 40%;
+            }
+        }
+    }
+}
+

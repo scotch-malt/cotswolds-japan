@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/header.scss";
-import { Navbar, Nav, NavDropdown} from "react-bootstrap";
+import { Navbar, Nav} from "react-bootstrap";
 import Logo from "../images/logo.svg";
 import { useStaticQuery, Link, graphql } from "gatsby"
 

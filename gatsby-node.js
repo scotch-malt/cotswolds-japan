@@ -5,6 +5,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
+
     createNodeField({
       node,
       name: `slug`,
@@ -15,6 +16,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+  const aboutPage = path.resolve(`./src/templates/aboutTemplate.js`);
+  const productsPage = path.resolve(`./src/templates/productsTemplate.js`);
   const result = await graphql(`
     query {
       allMarkdownRemark {
@@ -23,6 +26,10 @@ exports.createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            frontmatter {
+              tags
+              pagetype
+            }
           }
         }
       }
@@ -30,14 +37,31 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    createPage({
-      path: node.fields.slug,
-      component: path.resolve(`./src/templates/pageTemplate.js`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.fields.slug,
-      },
-    })
+    if (node.frontmatter.pagetype === 'products') {
+      createPage({
+        path: node.fields.slug,
+        component: productsPage,
+        context: {
+          slug: node.fields.slug
+        }
+      });
+    } else { 
+      createPage({
+        path: node.fields.slug,
+        component: aboutPage,
+        context: {
+          slug: node.fields.slug 
+        }
+      });
+    }
+    // createPage({
+    //   path: node.fields.slug,
+    //   component: ,
+    //   context: {
+    //     // Data passed to context is available
+    //     // in page queries as GraphQL variables.
+    //     slug: node.fields.slug,
+    //   },
+    // })
   })
 }

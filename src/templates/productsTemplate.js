@@ -1,8 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
+import "../styles/products.scss";
 
-export default function pageTemplate({
+export default function ProductsTemplate({
     data, // this prop will be injected by the GraphQL query below.
   }) {
     const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -10,16 +11,16 @@ export default function pageTemplate({
     const { frontmatter, html } = markdownRemark
     return (
       <Layout>
-        <div className="page-container">
-          <div className="page">
+        <div className="products">
+          <div className="products-page-wrapper">
             <h1>{frontmatter.title}</h1>
             <h2>{frontmatter.date}</h2>
             <div
-              className="page-content"
+              className="products-page-wrapper-content"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
-      </div>
+        </div>
       </Layout>
       
     ) 

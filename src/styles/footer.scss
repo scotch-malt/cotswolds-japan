@@ -1,0 +1,29 @@
+.footer {
+    background-color: #222;
+    height: 300px;
+    padding-top: 20px;
+    display: flex;
+    &-inside-right {
+        text-align: center;
+        width: 50%;
+        height: 200px;
+        background-color: transparent;
+        background-image:url("../images/cotswolds_footer.png");
+        filter: brightness(40%);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left; 
+    }
+    &-inside-left {
+        width: 50%;
+        text-align: center;
+        &-sms {
+            display: flex;
+            justify-content: space-between;
+            width: 125px;
+            margin: auto;
+        }
+    }
+}
+
+

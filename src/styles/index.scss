@@ -9,7 +9,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
   padding-top: 98px;
   &-top-content {
     display: flex;
@@ -22,56 +22,48 @@ html, body {
         font-size: 1.5rem;
       }
     }
-    &-description {
-      width: 50%;
-      padding: 80px 0;
-      &-text {
-        width: 75%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        &-heading {
-          font-family: "Libre Baskerville", serif;
-          font-style: italic; 
-        }
-        &-divider {
-          // border-top: 1px solid #000000;
-          // background: transparent;
-          width: 50%;
-          margin: auto;
-        }
-        &-main {
-          font-family: Raleway;
-        }
-      }
-    }
-  }
-  &-middle-content {
-    &-awards {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 75%;
-      margin: auto;
-      padding: 30px 0;
-    }
     &-products {
       display: flex;
       justify-content: space-between;
       margin: auto;
       padding: 80px 0;
-      width: 65%;
+      width: 50%;
       &-linkwrap {
 
       }
     }
   }
+  &-middle-content {
+    padding: 50px 0;
+    &-awards {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+    &-products {
+      display: none;
+    }
+    &-description {
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      padding: 40px 0;
+      & h2 {
+        font-family: "Libre Baskerville";
+        font-style: italic;
+      }
+      &-cotswolds {
+        box-shadow: 1px 1px 6px 1px lightgray
+      }
+    }
+  }
 }
 
-.footer {
-  text-align: center;
-}
+// .footer {
+//   text-align: center;
+// }
 
 .spacer {
   width: 100px;
@@ -89,50 +81,90 @@ a {
   height: auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1300px) {
+  .main-body {
+    &-middle-content {
+      &-description {
+        width: 55%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
   .main-body {
     &-top-content {
       &-carousel {
         width: 100%;
-        font-family: Raleway;
-        & h1 {
-          font-size: 1.5rem;
-        }
-        & p{
-          font-size: 1rem;
-        }
       }
-      flex-direction: column;
+      &-products {
+        display: none;
+      }
+    }
+    &-middle-content {
+      &-products {
+        display: flex;
+        padding: 30px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-body {
+    &-middle-content {
+      &-awards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+      }
       &-description {
-        padding: 20px 0;
-        width: 100%;
-        &-text {
-          width: 90%;
-          &-heading {
-            font-size: 1.5rem;
-            padding: 10px 0;
-          }
-          &-main {
-            padding: 10px 0;
-          }
+        width: 60%;
+      }
+      &-products {
+        display: flex;
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-body {
+    &-top-content {
+      &-carousel {
+        & h1 {
+          font-size: 2rem;
+        }
+        & p {
+          font-size: 1.125rem;
         }
       }
     }
     &-middle-content {
-      &-awards {
-        width: 90%;
-        padding: 0 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 5px;
-        justify-items: center;
+      &-description {
+        width: 70%;
+        padding: 80 0px;
+        & h2 {
+          font-size: 1.5rem;
+        }
       }
       &-products {
         flex-direction: column;
-        width: 80%;
-        padding: 40px 0;
-        &-imagelink {
-          padding: 40px 0; 
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .main-body {
+    &-top-content {
+      &-carousel {
+        & h1 {
+          font-size: 1.5rem;
+        }
+        & p {
+          font-size: 1rem;
         }
       }
     }
