@@ -31,11 +31,10 @@ const Header = () => {
         `
       )
       const pages = data.allMarkdownRemark.edges 
-      console.log(pages)
     return (
         <div className="header">
           <Navbar className="header-nav" collapseOnSelect expand="lg" bg="white" variant="light">
-            <div class="navbar-brand">
+            <div className="navbar-brand">
               <div className="header-nav-logo">
                 <Link to="/"><img className="responsive" src={Logo} alt=""/></Link>
               </div>
@@ -45,16 +44,16 @@ const Header = () => {
               <Nav className="mr-auto">
               </Nav>
               <Nav>
-                <div class="nav-link active">
+                <div className="nav-link active">
                   <Link className="header-nav-links" to={pages[2].node.fields.slug}>{pages[2].node.frontmatter.title}</Link>
                 </div>
-                <div class="nav-link active">
+                <div className="nav-link active">
                   <Link className="header-nav-links" to={pages[0].node.fields.slug}>{pages[0].node.frontmatter.title}</Link>
                 </div>
-                <div class="nav-link active">
+                <div className="nav-link active">
                   <Link className="header-nav-links" to={pages[1].node.fields.slug}>{pages[1].node.frontmatter.title}</Link>
                 </div>
-                <div class="nav-link active">
+                <div className="nav-link active">
                   <Link className="header-nav-links" to="/contact">CONTACT</Link> 
                 </div>
               </Nav>
