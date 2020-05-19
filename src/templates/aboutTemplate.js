@@ -17,6 +17,7 @@ import Distil2 from "../images/distil2.jpg";
 import Distil3 from "../images/distil3.jpg";
 import Distil4 from "../images/distil4.jpg";
 import Casking from "../images/casking.jpg";
+import GinStill from "../images/ginstill.jpg";
 import "../styles/about.scss";
 
 export default function AboutTemplate({ data }) {
@@ -190,7 +191,7 @@ export default function AboutTemplate({ data }) {
                 <div className="about-page-wrapper-crafting-whisky-malting">
                   <div className="about-page-wrapper-crafting-whisky-malting-images">
                     <div className="about-page-wrapper-crafting-whisky-malting-images-image">
-                      <img className="img-fluid w-100" src={Malting} alt=""/>
+                      <img className="img-fluid w-100" src={GinStill} alt=""/>
                     </div> 
                   </div>
                   <div className="about-page-wrapper-crafting-whisky-malting-description">
