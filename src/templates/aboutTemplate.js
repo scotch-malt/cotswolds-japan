@@ -18,6 +18,10 @@ import Distil3 from "../images/distil3.jpg";
 import Distil4 from "../images/distil4.jpg";
 import Casking from "../images/casking.jpg";
 import GinStill from "../images/ginstill.jpg";
+import Botanicals1 from "../images/botanicals1.jpg";
+import Botanicals2 from "../images/botanicals2.jpg";
+import Resting from "../images/resting.jpg";
+import Reducing from "../images/reducing.jpg";
 import "../styles/about.scss";
 
 export default function AboutTemplate({ data }) {
@@ -31,6 +35,8 @@ export default function AboutTemplate({ data }) {
     let fermentation = "";
     let distillation = "";
     let casking = "";
+    let base = "";
+    let resting = "";
 
     allMarkdownRemark.edges.forEach((edge, i) => {
       if (edge.node.frontmatter.title === "OUR WHISKY") {
@@ -56,6 +62,12 @@ export default function AboutTemplate({ data }) {
       }
       if (edge.node.frontmatter.title === "READY TO BE CASKED") {
         casking = edge.node.html 
+      }
+      if (edge.node.frontmatter.title === "BEGIN WITH A BASE") {
+        base = edge.node.html 
+      }
+      if (edge.node.frontmatter.title === "RESTING AND REDUCING") {
+        resting = edge.node.html 
       }
     })
   
@@ -188,16 +200,39 @@ export default function AboutTemplate({ data }) {
 
               <div className="about-page-wrapper-crafting-gin">
                 <h1>CRAFTING OUR GIN</h1>
-                <div className="about-page-wrapper-crafting-whisky-malting">
-                  <div className="about-page-wrapper-crafting-whisky-malting-images">
-                    <div className="about-page-wrapper-crafting-whisky-malting-images-image">
+                <div className="about-page-wrapper-crafting-gin-base">
+                  <div className="about-page-wrapper-crafting-gin-base-images">
+                    <div className="about-page-wrapper-crafting-gin-base-images-top-image">
                       <img className="img-fluid w-100" src={GinStill} alt=""/>
                     </div> 
+                    <div className="about-page-wrapper-crafting-gin-base-images-bottom-images">
+                      <div className="about-page-wrapper-crafting-gin-base-images-bottom-images-image">
+                       <img src={Botanicals1} alt="" className="img-fluid"/>
+                      </div> 
+                      <div className="about-page-wrapper-crafting-gin-base-images-bottom-images-image">
+                       <img src={Botanicals2} alt="" className="img-fluid"/>
+                      </div> 
+                    </div>
                   </div>
-                  <div className="about-page-wrapper-crafting-whisky-malting-description">
-                    <div className="about-page-wrapper-crafting-whisky-malting-description-body" dangerouslySetInnerHTML={{ __html: traditional_malting }}/>
+                  <div className="about-page-wrapper-crafting-gin-base-description">
+                    <div className="about-page-wrapper-crafting-gin-base-description-body" dangerouslySetInnerHTML={{ __html: base }}/>
                   </div>
                 </div>
+                <div className="about-page-wrapper-crafting-whisky-harvest">
+                  <div className="about-page-wrapper-crafting-whisky-harvest-images">
+                    <div className="about-page-wrapper-crafting-whisky-harvest-images-image">
+                      <img className="img-fluid w-45" src={Resting} alt=""/>
+                    </div>
+                    <div className="about-page-wrapper-crafting-whisky-harvest-images-image">
+                      <img className="img-fluid w-45" src={Reducing} alt=""/>
+                    </div> 
+                  </div>
+                  <div className="about-page-wrapper-crafting-whisky-harvest-description">
+                    <div className="about-page-wrapper-crafting-whisky-harvest-description-body" dangerouslySetInnerHTML={{ __html: resting }} />
+                  </div>
+                </div>
+
+
               </div>
 
             </div>
