@@ -245,17 +245,6 @@ export default function AboutTemplate({ data }) {
     ) 
   }
 
-//   export const pageQuery = graphql`
-//   query($slug: String!) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       html
-//       frontmatter {
-//         date(formatString: "MMMM DD, YYYY")
-//         title
-//       }
-//     }
-//   }
-// `
 
 export const pageQuery = graphql`
 query aboutQuery {

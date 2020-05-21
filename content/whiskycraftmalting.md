@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "TRADITIONAL MALTING"
 tags: ["whisky"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### TRADITIONAL MALTING 

@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "MILLING AND MASHING"
 tags: ["whisky"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### MILLING AND MASHING 

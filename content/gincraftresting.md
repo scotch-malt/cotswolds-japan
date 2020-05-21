@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "RESTING AND REDUCING"
 tags: ["gin"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### RESTING AND REDUCING 

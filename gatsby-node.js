@@ -17,7 +17,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const aboutPage = path.resolve(`./src/templates/aboutTemplate.js`);
-  const productsPage = path.resolve(`./src/templates/productsTemplate.js`);
+  const whiskyPage = path.resolve(`./src/templates/whiskyTemplate.js`);
+  const ginPage = path.resolve(`./src/templates/ginTemplate.js`);
   const result = await graphql(`
     query {
       allMarkdownRemark {
@@ -37,10 +38,18 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.frontmatter.pagetype === 'products') {
+    if (node.frontmatter.pagetype === 'whiskies') {
       createPage({
         path: node.fields.slug,
-        component: productsPage,
+        component: whiskyPage,
+        context: {
+          slug: node.fields.slug
+        }
+      });
+    } else if (node.frontmatter.pagetype === 'gins') {
+      createPage({
+        path: node.fields.slug,
+        component: ginPage,
         context: {
           slug: node.fields.slug
         }
@@ -54,14 +63,5 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       });
     }
-    // createPage({
-    //   path: node.fields.slug,
-    //   component: ,
-    //   context: {
-    //     // Data passed to context is available
-    //     // in page queries as GraphQL variables.
-    //     slug: node.fields.slug,
-    //   },
-    // })
   })
 }

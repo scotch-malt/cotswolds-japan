@@ -9,7 +9,7 @@ const Header = () => {
         graphql`
           query {
             allMarkdownRemark(
-             limit: 3
+             limit: 20
            ) {
              totalCount
              edges {
@@ -31,6 +31,22 @@ const Header = () => {
         `
       )
       const pages = data.allMarkdownRemark.edges 
+      console.log(pages)
+      let whisky = "";
+      let gin = "";
+      let about = "";
+      pages.forEach((page, i) => {
+        if (page.node.frontmatter.title === "OUR WHISKIES") {
+          whisky = page.node.fields.slug
+        }
+        if (page.node.frontmatter.title === "OUR GINS") {
+          gin = page.node.fields.slug
+        }
+        if (page.node.frontmatter.title === "ABOUT") {
+          about = page.node.fields.slug
+        }
+      })
+      console.log(gin)
     return (
         <div className="header">
           <Navbar className="header-nav" collapseOnSelect expand="lg" bg="white" variant="light">
@@ -45,13 +61,13 @@ const Header = () => {
               </Nav>
               <Nav>
                 <div className="nav-link active">
-                  <Link className="header-nav-links" to={pages[2].node.fields.slug}>{pages[2].node.frontmatter.title}</Link>
+                  <Link className="header-nav-links" to={about}>ABOUT</Link>
                 </div>
                 <div className="nav-link active">
-                  <Link className="header-nav-links" to={pages[0].node.fields.slug}>{pages[0].node.frontmatter.title}</Link>
+                  <Link className="header-nav-links" to={gin}>OUR GINS</Link>
                 </div>
                 <div className="nav-link active">
-                  <Link className="header-nav-links" to={pages[1].node.fields.slug}>{pages[1].node.frontmatter.title}</Link>
+                  <Link className="header-nav-links" to={whisky}>OUR WHISKIES</Link>
                 </div>
                 <div className="nav-link active">
                   <Link className="header-nav-links" to="/contact">CONTACT</Link> 

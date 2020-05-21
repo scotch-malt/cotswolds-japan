@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "FERMENTATION"
 tags: ["whisky"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### FERMENTATION 

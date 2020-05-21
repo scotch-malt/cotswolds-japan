@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "BEGIN WITH A BASE"
 tags: ["gin"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### BEGIN WITH A BASE 

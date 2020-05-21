@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "READY TO BE CASKED"
 tags: ["whisky"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### READY TO BE CASKED 

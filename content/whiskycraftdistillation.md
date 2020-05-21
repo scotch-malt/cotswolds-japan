@@ -3,7 +3,7 @@ date: 2020-05-12
 title: "DISTILLATION"
 tags: ["whisky"]
 published: true
-pagetype: "products"
+pagetype: "about"
 ---
 
 ### DISTILLATION 

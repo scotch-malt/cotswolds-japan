@@ -5,7 +5,7 @@
     justify-content: space-between;
     min-height: 100vh;
     &-page-wrapper {
-        padding: 96px 15%;
+        padding: 96px 0;
         &-heading {
             text-align: center;
             font-family: "Libre Baskerville";
@@ -14,6 +14,7 @@
             padding: 0 10%;
         }
         &-content {
+            padding: 40px 75px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
