@@ -1,0 +1,46 @@
+.contact {
+    padding-top: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    &-main-content {
+        & h1 {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 60px;
+        }
+        &-social {
+            width: 10%;
+            padding: 20px 0;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            & img {
+                width: 50px;
+            }
+        }
+        &-form {
+            width: 60%;
+            margin: auto;
+            &-group {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contact {
+        &-main-content {
+            & h1 {
+                font-size: 40px;
+            }
+            &-social {
+                width: 50%;
+            }
+        }
+    }
+}
