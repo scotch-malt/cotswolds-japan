@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import Facebook from "../images/facebook.svg";
@@ -32,7 +33,7 @@ const Contact = ({data}) => {
                         </div>
                         <div className="contact-main-content-wrap-form">
                             <h4>INQUIRIES</h4>
-                            <form action="">
+                            <form name="contact" action="POST" data-netlify="true">
                               <ul>
                                 <li>
                                   <label htmlFor="name">お名前<small className="text-danger"> *</small></label>
@@ -47,7 +48,7 @@ const Contact = ({data}) => {
                                   <textarea name="inquiry" placeholder="お問い合わせ" id="inquiry" cols="30" rows="10"></textarea>
                                 </li>
                               </ul>
-                              
+                              <Button variant="info" type="submit">Submit</Button>{' '}
                             </form>
                         </div>
                     </div>
