@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/header.scss";
+import { useStaticQuery, Link, graphql } from "gatsby"
 import { Navbar, Nav} from "react-bootstrap";
 import Logo from "../images/logo.svg";
-import { useStaticQuery, Link, graphql } from "gatsby"
+import "../styles/header.scss";
 
 const Header = () => {
     const data = useStaticQuery(
@@ -49,10 +49,10 @@ const Header = () => {
       console.log(gin)
     return (
         <div className="header">
-          <Navbar className="header-nav" collapseOnSelect expand="lg" bg="white" variant="light">
+          <Navbar className="header-nav px-5" collapseOnSelect expand="lg" bg="white" variant="light">
             <div className="navbar-brand">
               <div className="header-nav-logo">
-                <Link to="/"><img className="responsive" src={Logo} alt=""/></Link>
+                <Link to="/"><img width={200} className="img-fluid" src={Logo} alt=""/></Link>
               </div>
             </div>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
