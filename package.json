@@ -11,13 +11,16 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.21.21",
+    "gatsby-plugin-netlify-cms": "^4.3.3",
     "gatsby-plugin-sass": "^2.3.1",
     "gatsby-source-filesystem": "^2.3.1",
     "gatsby-transformer-remark": "^2.8.7",
+    "netlify-cms-app": "^2.12.13",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
+    "typeface-kosugi": "0.0.61",
     "typeface-libre-baskerville": "0.0.72",
     "typeface-raleway": "0.0.75"
   }

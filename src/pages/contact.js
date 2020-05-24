@@ -7,26 +7,50 @@ import Twitter from "../images/twitter.svg";
 
 import "../styles/contact.scss";
 
-const Contact = () => {
+const Contact = ({data}) => {
+
+    const pages = data.allMarkdownRemark.edges
+    let distilleryInfo = "";
+    pages.forEach(page => {
+        if (page.node.frontmatter.title === "STOURTON DISTILLERY LOCATION") {
+            distilleryInfo = page.node.html
+        }
+    })
     return (
         <Layout>
             <div className="contact">
                 <div className="contact-main-content">
                     <h1>CONTACT US</h1>
-                    <div className="contact-main-content-social">
-                        <img src={Facebook} alt="Facebook" className="img-fluid" title="Facebook"/>
-                        <img src={Instagram} alt="Instagram" className="img-fluid" title="Instagram"/>
-                        <img src={Twitter} alt="Twitter" className="img-fluid" title="Twitter"/>
-                    </div>
-                    <form className="contact-main-content-form">
-                        <h3 className="text-center py-4">General Inquiries</h3>
-                        <div className="contact-main-content-form-group">
-                            <input type="text"/>
-                            <input type="text"/>
-                            <input type="text"/>
+                    <div className="contact-main-content-wrap">
+                        <div className="contact-main-content-wrap-info">
+                            <div dangerouslySetInnerHTML={{__html: distilleryInfo}} />
+                            <div className="contact-main-content-wrap-info-social">
+                              <img src={Facebook} alt="Facebook" className="img-fluid" title="Facebook"/>
+                              <img src={Instagram} alt="Instagram" className="img-fluid" title="Instagram"/>
+                              <img src={Twitter} alt="Twitter" className="img-fluid" title="Twitter"/>
+                            </div>
                         </div>
-                        
-                    </form>
+                        <div className="contact-main-content-wrap-form">
+                            <h4>INQUIRIES</h4>
+                            <form action="">
+                              <ul>
+                                <li>
+                                  <label htmlFor="name">お名前<small className="text-danger"> *</small></label>
+                                  <input type="text" name="name" placeholder="お名前" required/>
+                                </li>
+                                <li>
+                                  <label htmlFor="email">Eメール<small className="text-danger"> *</small></label>
+                                  <input type="text" name="email" placeholder="Eメール" required/>
+                                </li>
+                                <li>
+                                  <label htmlFor="inquiry">お問い合わせ</label>
+                                  <textarea name="inquiry" placeholder="お問い合わせ" id="inquiry" cols="30" rows="10"></textarea>
+                                </li>
+                              </ul>
+                              
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <Footer />
             </div>
@@ -36,3 +60,24 @@ const Contact = () => {
 }
 
 export default Contact;
+
+export const pageQuery = graphql`
+query contactQuery {
+  allMarkdownRemark {
+    totalCount
+    edges {
+      node {
+        html 
+        frontmatter {
+          title 
+          date 
+          tags
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+`

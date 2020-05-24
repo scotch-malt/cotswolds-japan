@@ -1,0 +1,16 @@
+.not-found {
+    background-image: url("../images/contact_page.jpg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-main-content {
+        padding: 98px 0;
+        & h3 {
+            margin: 100px auto;
+            text-align: center;
+
+        }
+    }
+}

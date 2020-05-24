@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "gatsby";
 import "../styles/index.scss";
 import "typeface-raleway";
 import "typeface-libre-baskerville";
+import "typeface-kosugi";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import { Carousel} from "react-bootstrap";
@@ -71,16 +73,16 @@ const Index = () => {
                     <div className="main-body-top-content-products">
                         <div className="main-body-top-content-products-wrapper">
                                 <h2 className="text-center">Our Gins</h2>
-                                <a className="product-links" href="#" >
+                                <Link className="product-links" to="/ourgins" >
                                     <img src={GinStill} alt="" className="img-fluid"/>
-                                </a>
+                                </Link>
                         </div>
                         <p className="spacer" />
                         <div className="main-body-top-content-products-wrapper">
                                 <h2 className="text-center">Our Whiskies</h2>
-                                <a className="product-links" href="#" >
+                                <Link className="product-links" to="/ourwhiskies" >
                                     <img src={WhiskyStill} alt="" className="img-fluid "/>
-                                </a>
+                                </Link>
                         </div>
                     </div>
                 </div>
@@ -101,16 +103,16 @@ const Index = () => {
                     <div className="main-body-middle-content-products">
                         <div className="main-body-middle-content-products-wrapper">
                             <h2 className="text-center">Our Whiskies</h2>
-                            <a className="product-links" href="#" >
+                            <Link className="product-links" to="/ourwhiskies" >
                                 <img src={WhiskyStill} alt="" className="img-fluid"/>
-                            </a>
+                            </Link>
                         </div>
                         <p className="spacer" />
                         <div className="main-body-middle-content-products-wrapper">  
                             <h2 className="text-center">Our Gins</h2>
-                            <a className="product-links" href="/contact">
+                            <Link className="product-links" to="/ourgins">
                                 <img src={GinStill} alt="" className="img-fluid"/>
-                            </a> 
+                            </Link> 
                         </div>            
                     </div>
                     <div className="main-body-middle-content-description">

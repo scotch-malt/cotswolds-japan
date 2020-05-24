@@ -5,27 +5,92 @@
     justify-content: space-between;
     min-height: 100vh;
     &-main-content {
+        background-image: url("../images/contact_page.jpg");
         & h1 {
             text-align: center;
             padding: 20px 0;
             font-size: 60px;
+            font-family: "Raleway";
         }
-        &-social {
-            width: 10%;
-            padding: 20px 0;
+        &-wrap {
+            width: 70%;
+            padding: 40px 0;
             margin: auto;
             display: flex;
             justify-content: space-evenly;
-            & img {
-                width: 50px;
+            &-info {
+                background-color: white;
+                width: 35%;
+                padding: 30px 30px;
+                border: 1px solid;
+                box-shadow: 1px 1px 5px;
+                &-social {
+                    display: flex;
+                    & img {
+                        width: 30px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            &-form {
+                background-color: white;
+                width: 35%;
+                padding: 30px 30px;
+                border: 1px solid;
+                box-shadow: 1px 1px 5px;
+                & form {
+                    padding: 30px 0;
+                    & ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        & li {
+                            padding: 5px 0;
+                            display: flex;
+                            flex-direction: column;
+                            font-family: "Kosugi";
+                            font-weight: 600;
+                        }
+                    }
+                }
             }
         }
-        &-form {
-            width: 60%;
-            margin: auto;
-            &-group {
-                display: flex;
-                justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .contact {
+        &-main-content {
+            &-wrap {
+                width: 90%;
+                &-info {
+                    width: 35%;
+                }
+                &-form {
+                    width: 35%;
+                }
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact {
+        &-main-content {
+            & h1 {
+                font-size: 40px;
+            }
+            &-wrap {
+                flex-direction: column;
+                width: 50%;
+                &-info {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                &-form {
+                    width: 100%;
+                }
             }
             
         }
@@ -38,9 +103,11 @@
             & h1 {
                 font-size: 40px;
             }
-            &-social {
-                width: 50%;
+            &-wrap {
+                flex-direction: column;
+                width: 90%;
             }
+            
         }
     }
 }
