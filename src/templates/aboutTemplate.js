@@ -1,5 +1,6 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
+import { Button } from "react-bootstrap";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import OurSpirits from "../images/our_spirits.jpg";
@@ -7,21 +8,21 @@ import OurSpiritsMobile from "../images/our_spirits_mobile.jpg";
 import Whisky from "../images/whisky.jpg";
 import Gin from "../images/gin.jpg";
 import Design from "../images/design.png";
-import Combine from "../images/combine.jpg";
-import Wheat from "../images/wheat.jpg";
-import Malting from "../images/malting.jpg";
-import Mashing from "../images/mashing.jpg";
-import Fermentation from "../images/fermentation.jpg";
-import Distil1 from "../images/distil1.jpg";
-import Distil2 from "../images/distil2.jpg";
-import Distil3 from "../images/distil3.jpg";
-import Distil4 from "../images/distil4.jpg";
-import Casking from "../images/casking.jpg";
-import GinStill from "../images/ginstill.jpg";
-import Botanicals1 from "../images/botanicals1.jpg";
-import Botanicals2 from "../images/botanicals2.jpg";
-import Resting from "../images/resting.jpg";
-import Reducing from "../images/reducing.jpg";
+// import Combine from "../images/combine.jpg";
+// import Wheat from "../images/wheat.jpg";
+// import Malting from "../images/malting.jpg";
+// import Mashing from "../images/mashing.jpg";
+// import Fermentation from "../images/fermentation.jpg";
+// import Distil1 from "../images/distil1.jpg";
+// import Distil2 from "../images/distil2.jpg";
+// import Distil3 from "../images/distil3.jpg";
+// import Distil4 from "../images/distil4.jpg";
+// import Casking from "../images/casking.jpg";
+// import GinStill from "../images/ginstill.jpg";
+// import Botanicals1 from "../images/botanicals1.jpg";
+// import Botanicals2 from "../images/botanicals2.jpg";
+// import Resting from "../images/resting.jpg";
+// import Reducing from "../images/reducing.jpg";
 import "../styles/about.scss";
 
 export default function AboutTemplate({ data }) {
@@ -29,14 +30,14 @@ export default function AboutTemplate({ data }) {
   
     let our_whisky = "";
     let our_gin = "";
-    let harvest_time = "";
-    let traditional_malting = "";
-    let milling_mashing = "";
-    let fermentation = "";
-    let distillation = "";
-    let casking = "";
-    let base = "";
-    let resting = "";
+    // let harvest_time = "";
+    // let traditional_malting = "";
+    // let milling_mashing = "";
+    // let fermentation = "";
+    // let distillation = "";
+    // let casking = "";
+    // let base = "";
+    // let resting = "";
 
     allMarkdownRemark.edges.forEach((edge, i) => {
       if (edge.node.frontmatter.title === "OUR WHISKY") {
@@ -45,30 +46,30 @@ export default function AboutTemplate({ data }) {
       if (edge.node.frontmatter.title === "OUR GIN") {
         our_gin = edge.node.html 
       }
-      if (edge.node.frontmatter.title === "HARVEST TIME") {
-        harvest_time = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "TRADITIONAL MALTING") {
-        traditional_malting = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "MILLING AND MASHING") {
-        milling_mashing = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "FERMENTATION") {
-        fermentation = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "DISTILLATION") {
-        distillation = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "READY TO BE CASKED") {
-        casking = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "BEGIN WITH A BASE") {
-        base = edge.node.html 
-      }
-      if (edge.node.frontmatter.title === "RESTING AND REDUCING") {
-        resting = edge.node.html 
-      }
+      // if (edge.node.frontmatter.title === "HARVEST TIME") {
+      //   harvest_time = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "TRADITIONAL MALTING") {
+      //   traditional_malting = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "MILLING AND MASHING") {
+      //   milling_mashing = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "FERMENTATION") {
+      //   fermentation = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "DISTILLATION") {
+      //   distillation = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "READY TO BE CASKED") {
+      //   casking = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "BEGIN WITH A BASE") {
+      //   base = edge.node.html 
+      // }
+      // if (edge.node.frontmatter.title === "RESTING AND REDUCING") {
+      //   resting = edge.node.html 
+      // }
     })
   
     return (
@@ -91,6 +92,7 @@ export default function AboutTemplate({ data }) {
               <div className="about-page-wrapper-product-description">
                 <h3 className="text-center">OUR WHISKY</h3>
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: our_whisky }} />
+                <Link to="/ourwhiskies"><Button variant="warning">Learn More About Our Whiskies...</Button>{' '}</Link>
               </div>
             </div>
 
@@ -105,12 +107,13 @@ export default function AboutTemplate({ data }) {
               <div className="about-page-wrapper-product-description">
                 <h3 className="text-center">OUR GIN</h3>
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: our_gin }} />
+                <Link to="/ourgins"><Button variant="secondary">Learn More About Our Gins...</Button>{' '}</Link>
               </div>
             </div>
 
-            <hr/>
+            {/* <hr/> */}
 
-            <div className="about-page-wrapper-crafting">
+            {/* <div className="about-page-wrapper-crafting">
               <div className="about-page-wrapper-crafting-whisky">
                 <h1>CRAFTING OUR WHISKY</h1>
                 <div className="about-page-wrapper-crafting-whisky-harvest">
@@ -235,7 +238,7 @@ export default function AboutTemplate({ data }) {
 
               </div>
 
-            </div>
+            </div> */}
             
           </div>
           <Footer />
