@@ -38,7 +38,7 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: ingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={Gin} alt="Single Malt Whisky" className="img-fluid"/>
+                <img src={Gin} alt="Dry Gin" className="img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: crafted }} />
