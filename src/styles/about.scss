@@ -226,55 +226,55 @@
                     width: 100%;
                 }
             }
-            &-divider {
-                padding-top: 30px;
-            }
-            &-crafting {
-                &-whisky {
-                    &-harvest {
-                        flex-direction: column;
-                        &-images {
-                            padding: 20px 0;
-                            width: 100%;
-                        }
-                        &-description {
-                            width: 100%;
-                            padding: 20px 0;
-                        }
-                    }
-                    &-malting {
-                        flex-direction: column;
-                        &-images {
-                            padding: 20px 0;
-                            width: 100%;
-                        }
-                        &-description {
-                            width: 100%;
-                            padding: 20px 0;
-                        }
-                    }
-                    &-distillation {
-                       flex-direction: column; 
-                       &-images {
-                           padding: 20px 0;
-                           width: 100%;
-                       }
-                    }
-                }
-                &-gin {
-                    &-base {
-                        flex-direction: column;
-                        &-images {
-                            padding: 20px 0;
-                            width: 100%;
-                        }
-                        &-description {
-                            width: 100%;
-                            padding: 20px 0;
-                        }
-                    }
-                }
-            }
+            // &-divider {
+            //     padding-top: 30px;
+            // }
+            // &-crafting {
+            //     &-whisky {
+            //         &-harvest {
+            //             flex-direction: column;
+            //             &-images {
+            //                 padding: 20px 0;
+            //                 width: 100%;
+            //             }
+            //             &-description {
+            //                 width: 100%;
+            //                 padding: 20px 0;
+            //             }
+            //         }
+            //         &-malting {
+            //             flex-direction: column;
+            //             &-images {
+            //                 padding: 20px 0;
+            //                 width: 100%;
+            //             }
+            //             &-description {
+            //                 width: 100%;
+            //                 padding: 20px 0;
+            //             }
+            //         }
+            //         &-distillation {
+            //            flex-direction: column; 
+            //            &-images {
+            //                padding: 20px 0;
+            //                width: 100%;
+            //            }
+            //         }
+            //     }
+            //     &-gin {
+            //         &-base {
+            //             flex-direction: column;
+            //             &-images {
+            //                 padding: 20px 0;
+            //                 width: 100%;
+            //             }
+            //             &-description {
+            //                 width: 100%;
+            //                 padding: 20px 0;
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
 }
