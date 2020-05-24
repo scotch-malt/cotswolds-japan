@@ -10,8 +10,6 @@ collections:
     label: "Info"
     folder: "content"
     create: true
-    editor:
-     preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Page Type", name: "pagetype", widget: "string" }
