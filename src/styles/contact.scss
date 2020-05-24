@@ -48,8 +48,10 @@
                             padding: 5px 0;
                             display: flex;
                             flex-direction: column;
-                            font-family: "Kosugi";
-                            font-weight: 600;
+                            & label {
+                                font-family: "Kosugi";
+                                font-weight: 600;
+                            }
                         }
                     }
                 }
