@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
+
 import Facebook from "../images/facebook.svg";
 import Instagram from "../images/instagram.svg";
 import Twitter from "../images/twitter.svg";

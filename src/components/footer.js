@@ -1,8 +1,10 @@
 import React from "react";
-import "../styles/footer.scss";
+
 import Facebook from "../images/facebook.svg";
 import Instagram from "../images/instagram.svg";
 import Twitter from "../images/twitter.svg";
+
+import "../styles/footer.scss";
 
 const Footer = () => {
     return (

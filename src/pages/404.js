@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
+
 import "../styles/notfound.scss";
 
 const NotFound = () => {

@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
-import "../styles/index.scss";
-import "typeface-raleway";
-import "typeface-libre-baskerville";
-import "typeface-kosugi";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import { Carousel} from "react-bootstrap";
+
 import WFGin from "../images/wf_gin_1440x.png";
 import Whisky from "../images/whisky_1440x.png";
 import DryGin from "../images/dry_gin_1440x.png"
@@ -24,7 +21,12 @@ import WG from "../images/awards/world-gin-2016-100.jpg";
 import WWA from "../images/awards/WWA19-CatWinner_732x.jpg";
 import WhiskyStill from "../images/whisky_and_still.jpg";
 import GinStill from "../images/gin_and_still.jpg";
-import Cotswolds from "../images/cotswolds.jpg"
+import Cotswolds from "../images/cotswolds.jpg";
+
+import "../styles/index.scss";
+import "typeface-raleway";
+import "typeface-libre-baskerville";
+import "typeface-kosugi";
 
 const Index = () => {
     return (

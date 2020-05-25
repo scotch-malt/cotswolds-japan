@@ -31,7 +31,7 @@ const Header = () => {
         `
       )
       const pages = data.allMarkdownRemark.edges 
-      console.log(pages)
+  
       let whisky = "";
       let gin = "";
       let about = "";
@@ -46,7 +46,7 @@ const Header = () => {
           about = page.node.fields.slug
         }
       })
-      console.log(gin)
+    
     return (
         <div className="header">
           <Navbar className="header-nav px-5" collapseOnSelect expand="lg" bg="white" variant="light">
