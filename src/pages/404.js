@@ -8,7 +8,7 @@ const NotFound = () => {
        <Layout>
            <div className="not-found">
                <div className="not-found-main-content">
-                    <h3>Sorry, we can't find the page you are looking for.</h3>
+                    <h3>Sorry, we can't find the page you are looking for. <span>ERROR: 404.</span></h3>
                </div>
                 <Footer/>
            </div>
