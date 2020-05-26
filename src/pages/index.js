@@ -39,7 +39,6 @@ const Index = () => {
                                 <img
                                 className="d-block w-100"
                                 src={WFGin}
-                                loading="lazy"
                                 alt="New"
                                 />
                                 <Carousel.Caption>
