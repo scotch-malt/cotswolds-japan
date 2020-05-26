@@ -50,7 +50,6 @@ const Index = () => {
                                 <img
                                 className="d-block w-100"
                                 src={Whisky}
-                                loading="lazy"
                                 alt="Whisky"
                                 />
 
@@ -63,7 +62,6 @@ const Index = () => {
                                 <img
                                 className="d-block w-100"
                                 src={DryGin}
-                                loading="lazy"
                                 alt="Gin"
                                 />
 
