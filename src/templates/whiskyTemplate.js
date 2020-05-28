@@ -3,8 +3,11 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import Whisky from "../images/whisky_bottle.jpg";
+import WhiskyMobile from "../images/whisky_bottle_mobile.jpg";
 import FoundersChoice from "../images/founders_choice.jpg";
+import FoundersChoiceMobile from "../images/founders_choice_mobile.jpg";
 import PeatedCask from "../images/peated_cask_whisky.jpg";
+import PeatedCaskMobile from "../images/peated_cask_whisky_mobile.jpg";
 import SF from "../images/awards/SFWSC-Double-Gold_3_768x.jpg";
 import HKIWSC from "../images/awards/2019_HKIWSC_100.jpg";
 import BWW from "../images/awards/Best_World_Whisky_GOLD2018100.jpg";
@@ -58,7 +61,8 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: ingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={Whisky} alt="Single Malt Whisky" className="img-fluid"/>
+                <img src={Whisky} alt="Single Malt Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
+                <img src={WhiskyMobile} alt="Single Malt Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: crafted }} />
@@ -83,7 +87,8 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: foundersingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={FoundersChoice} alt="Founder's Choice Whisky" className="img-fluid"/>
+                <img src={FoundersChoice} alt="Founder's Choice Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
+                <img src={FoundersChoiceMobile} alt="Founder's Choice Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: founderscrafted }} />
@@ -104,7 +109,8 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: peatedingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={PeatedCask} alt="Peated Cask Whisky" className="img-fluid"/>
+                <img src={PeatedCask} alt="Peated Cask Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
+                <img src={PeatedCaskMobile} alt="Peated Cask Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: peatedcrafted }} />
