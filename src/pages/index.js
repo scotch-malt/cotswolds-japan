@@ -4,9 +4,9 @@ import Layout from "../components/layout";
 import Footer from "../components/footer";
 import { Carousel} from "react-bootstrap";
 
-import WFGin from "../images/wf_gin_1440x.png";
-import Whisky from "../images/whisky_1440x.png";
-import DryGin from "../images/dry_gin_1440x.png"
+import WFGin from "../images/wf_gin_slider.jpg";
+import Whisky from "../images/whisky_slider.jpg";
+import DryGin from "../images/dry_gin_slider.jpg"
 import Design from "../images/design.png";
 import WSC from "../images/awards/2019_HKIWSC_100.jpg";
 import JBC from "../images/awards/2019-judging-best-class100.jpg";
