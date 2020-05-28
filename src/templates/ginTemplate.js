@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Footer from "../components/footer";
 import Gin from "../images/gin_bottle.jpg";
 import WFGin from "../images/wf_gin.jpg";
+import WFGinMobile from "../images/wf_gin_mobile.jpg";
 import OTGin from "../images/old_tom_gin.jpg";
 import GingerGin from "../images/ginger_gin.jpg";
 import SF from "../images/awards/SFWSC-Double-Gold_3_768x.jpg";
@@ -91,7 +92,8 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: wildfloweringredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={WFGin} alt="Wildflower No.1 Gin" className="img-fluid"/>
+                <img src={WFGin} alt="Wildflower No.1 Gin" className="products-page-wrapper-content-image-desktop img-fluid"/>
+                <img src={WFGinMobile} alt="Wildflower No.1 Gin" className="products-page-wrapper-content-image-mobile img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: wildflowercrafted }} />

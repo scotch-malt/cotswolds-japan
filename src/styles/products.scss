@@ -21,6 +21,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             justify-items: center;
+            &-image {
+                &-mobile {
+                    display: none;
+                }
+            }
         }
         &-awards {
             display: flex;
@@ -42,8 +47,11 @@
                 grid-template-columns: 1fr;
                 &-image {
                     text-align: center;
-                    & img {
-                        width: 80%;
+                    &-desktop {
+                        display: none;
+                    }
+                    &-mobile {
+                        display: block;
                     }
                 }
             }
