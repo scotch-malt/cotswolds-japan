@@ -43,7 +43,7 @@ const Contact = ({data}) => {
                                 </li>
                                 <li>
                                   <label htmlFor="email">Eメール<small className="text-danger"> *</small></label>
-                                  <input type="text" name="email" placeholder="Eメール" required/>
+                                  <input type="email" name="email" placeholder="Eメール" required/>
                                 </li>
                                 <li>
                                   <label htmlFor="inquiry">お問い合わせ</label>
