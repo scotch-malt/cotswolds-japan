@@ -83,7 +83,7 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: foundersingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={FoundersChoice} alt="Single Malt Whisky" className="img-fluid"/>
+                <img src={FoundersChoice} alt="Founder's Choice Whisky" className="img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: founderscrafted }} />
@@ -104,7 +104,7 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: peatedingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={PeatedCask} alt="Single Malt Whisky" className="img-fluid"/>
+                <img src={PeatedCask} alt="Peated Cask Whisky" className="img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: peatedcrafted }} />
