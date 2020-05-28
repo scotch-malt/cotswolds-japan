@@ -40,6 +40,12 @@
             &-content {
                 padding: 30px 45px;
                 grid-template-columns: 1fr;
+                &-image {
+                    text-align: center;
+                    & img {
+                        width: 80%;
+                    }
+                }
             }
             &-awards {
                 padding: 10px 0;
