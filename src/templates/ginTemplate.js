@@ -91,7 +91,7 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: wildfloweringredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={WFGin} loading="lazy" alt="Wildflower No.1 Gin" className="img-fluid"/>
+                <img src={WFGin} alt="Wildflower No.1 Gin" className="img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: wildflowercrafted }} />
@@ -110,7 +110,7 @@ export default function WhiskyTemplate({data}) {
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: oldtomingredients }} />
               </div>
               <div className="products-page-wrapper-content-image">
-                <img src={OTGin} loading="lazy" alt="Old Tom Gin" className="img-fluid"/>
+                <img src={OTGin} alt="Old Tom Gin" className="img-fluid"/>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: oldtomcrafted }} />
