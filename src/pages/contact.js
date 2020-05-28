@@ -34,7 +34,7 @@ const Contact = ({data}) => {
                         </div>
                         <div className="contact-main-content-wrap-form">
                             <h4>INQUIRIES</h4>
-                            <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
+                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                             <input type="hidden" name="form-name" value="contact" />
                               <ul>
                                 <li>
