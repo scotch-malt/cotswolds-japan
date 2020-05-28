@@ -6,6 +6,10 @@
     min-height: 100vh;
     &-page-wrapper {
         padding: 96px 15%;
+        & h4 {
+            font-family: Raleway;
+            text-shadow: .5px 1px darkslategray;
+        }
         &-heading {
             text-align: center;
             font-family: "Libre Baskerville";
