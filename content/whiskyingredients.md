@@ -7,13 +7,13 @@ pagetype: "whiskies"
 ---
 
 ### Carefully sourced ingredients 
-**Malt:** Odyssey. We are committed to using only barley grown in the Cotswolds, and the variety and farm on which it was grown are listed on the label of each bottle. We are one of a very small number of British whisky-makers to use 100% floor-malted barley. This comes to us from Britain’s oldest working maltings, in nearby Warminster. It is unpeated.
+**Malt:** コッツウォルズ産の大麦オデッセイ種を、ウォーミンスターの麦芽製造所でフロアモルティング
 
-**Yeast:** Two complementary varieties - Anchor and Fermentis - to ensure good yields and excellent fruity flavours.
+**Yeast:** 十分な生産量を確保し、フルーティーで豊かな風味を生み出すため、アンカー社とファーメンティス社の酵母2品種を補完的に使用
 
-**Water:** Village water supply - filtered, softened and demineralised before use.
+**Water:** 現地の水源からの水を使用前に濾過、軟化、脱塩して使用
 
-**Wood:** Premium first-fill Kentucky ex-Bourbon 200-litre barrels and reconditioned American Oak 225-litre red wine casks that have been shaved, toasted and re-charred.
+**Wood:** ファーストフィルのケンタッキー産バーボン樽と、シェービング、トースティング、リチャーリングを施した（STR）赤ワイン樽での熟成により、若いウイスキーとしては信じられないほどの成熟された深いフレーバーが生み出されています
 <br>
 <br>
 <hr>

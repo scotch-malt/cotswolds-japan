@@ -28,7 +28,19 @@ import "typeface-raleway";
 import "typeface-libre-baskerville";
 import "typeface-kosugi";
 
-const Index = () => {
+const Index = ({data}) => {
+    console.log(data)
+    const { allMarkdownRemark } = data
+
+    let our_distillery = "";
+
+    allMarkdownRemark.edges.forEach((edge, i) => {
+        if (edge.node.frontmatter.title === "OUR DISTILLERY") {
+          our_distillery = edge.node.html 
+        }
+        
+    })
+
     return (
         <Layout>
             <div className="main-body">
@@ -120,7 +132,7 @@ const Index = () => {
                     <div className="main-body-middle-content-description">
                         <img src={Design} alt="" className="img-fluid pb-5"/>
                         <h2 className="pt-2">Nestled in the heart of the beautiful Cotswolds countryside, producing Outstanding Natural Spirits since 2014</h2>
-                        <p className="py-3">Our distillery is the first full-scale distillery in the Cotswolds. We craft a range of single malt whiskies, gins and liqueurs, including the award-winning Cotswolds Dry Gin and Cotswolds Single Malt Whisky. We opened our doors five years ago and have welcomed visitors to the site every day since, offering Tour & Tastings, Gin and Whisky Blending Masterclasses and Cocktail Masterclasses.</p>
+                        <div className="main-body-middle-content-description-body py-4" dangerouslySetInnerHTML={{__html: our_distillery}} />
                         <img src={Cotswolds} alt="" className="main-body-middle-content-description-cotswolds mt-4 img-fluid"/>
                     </div>
                 </div>
@@ -132,3 +144,24 @@ const Index = () => {
 
 
 export default Index;
+
+export const pageQuery = graphql`
+query indexQuery {
+  allMarkdownRemark {
+    totalCount
+    edges {
+      node {
+        html 
+        frontmatter {
+          title 
+          date 
+          tags
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+` 

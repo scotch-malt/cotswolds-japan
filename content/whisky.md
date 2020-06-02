@@ -6,4 +6,8 @@ tags:
 published: true
 pagetype: about
 ---
-Whisky production is at the heart of everything we do at the distillery. Our flagship Cotswolds Single Malt is a rich, fruity and sippable whisky. It has a balance and depth of flavour that belies its young age, due to the exceptional attention to detail in our distilling and our use of the finest oak casks for maturation. <br> <br> We recently launched our cask strength release single malt, Founder's Choice, aged exclusively in our founder Dan's favourite casks: shaved, toasted and re-charred American Oak red wine barriques. These uniquely active casks give a rich and intense maturation to the distillery's fruity spirit, offering toffee, oak and red fruits, and a beautiful, deep colour. A must-have in any whisky lover's collection.
+コッツウォルズ蒸溜所のウイスキーは、最新の知識を基に、伝統的な設備と原料で製造されています。100%コッツウォルズ産の大麦を使用し、フロアモルティングにより製麦を行います。製麦された麦芽を蒸溜所で粉砕し、発酵、そして蒸溜。美しいポットスチル（単式蒸溜器）が、当蒸溜所ならではの豊かでフルーティなスピリッツを蒸溜するために毎日稼働しています。その後、ニューメイクをプレミアムオーク樽に詰め、熟成させます。2017年の発売からまだ間もないものの、コッツウォルズ・シングルモルトウイスキーは世界クラスのウイスキーとしての評価を確立しています。私たちはそのことを、心から誇りに思っています。
+
+2014年9月から樽による熟成を開始しました。暗闇の中で静かな時を過ごし、3年以上もの歳月を経て、スピリッツは「ウイスキー」へと姿を変えます。まさに熟成の神秘です。
+
+コッツウォルズ・シングルモルトウイスキーは、コッツウォルズ特別自然美観地域（AONB）内で初めて蒸溜されたウイスキーです。モルトとフルーツの豊かな香り際立つウイスキーは、コッツウォルズ地方が受け継いできた農業と、この地に広がる自然の美を反映したものです。

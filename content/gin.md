@@ -6,7 +6,6 @@ published: true
 pagetype: "about"
 ---
 
-Distilled with nine carefully considered botanicals, our Cotswolds Dry Gin is a London Dry with an aromatic twist. We distil juniper, coriander seed, angelica root, local lavender, bay leaf, hand-peeled fresh lime and pink grapefruit zest, cardamom and black peppercorn in our copper pot still, resulting in a rich and robust, award-winning gin.
-<br>
-<br>
-We do not remove the essential oils in our gin as these create a rich flavour and mouthfeel. As a result, our gin forms a unique pearlescent cloud when ice or tonic is added, and it tastes delicious!
+コッツウォルズ・ドライジンには、選び抜かれた9つのボタニカルが見事にブレンドされています。最高に芳醇で、香り豊かなスピリッツを製造するため、蒸溜ごとにこれらのボタニカルを10kg強（通常のプレミアムロンドンドライジンの約10倍もの量）を使用しています。手剥きによるピンクグレープフルーツとライムの皮、コッツウォルズラベンダーなど、どれも最高品質のボタニカルばかりです。ボタニカルからは、豊富なエッセンシャルオイルが抽出されます。オンザロックやジントニックにしてお飲みいただければ、このジン特有の真珠のような濁りをお楽しみになれます。
+
+この純粋なスピリッツは、「ワンショット蒸溜（ボタニカルを浸漬した液をまとめて一度に蒸溜する）」製法で作られます。ほとんどのジンは、「マルチショット蒸溜（狙う倍量のボタニカルを蒸溜する）」製法をとっており、ボタニカル濃縮原酒にニュートラルスピリッツを加えて調整されます。一方、コッツウォルズ・ドライジンは、ボタニカル濃縮原酒から製造されることはありません。あなたが口にするコッツウォルズ・ドライジンは、美しい銅製ポットスチル（単式蒸溜器）から生まれたジンです。驚くほどバランスのとれた、芳醇で、香り豊かなスピリッツ。ワールドジンアワード2016で「ワールドベストロンドンドライジン」に輝くなど、数々の受賞がそのことを証明しています。
