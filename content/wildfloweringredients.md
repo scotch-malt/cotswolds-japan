@@ -8,15 +8,15 @@ pagetype: gins
 ---
 ### The finest ingredients
 
-Our No.1 Wildflower Gin starts with a London Dry base featuring juniper, coriander and angelica, to which we add essences of cornflowers, lavender, orange and rhubarb root. <br> <br>
+ジュニパー、コリアンダー、アンジェリカの風味を特徴とするロンドンドライジンを原料酒として、これにコーンフラワー、ラベンダー、オレンジ、ルバーブルートから抽出したエッセンスを加えました。 <br> <br>
 
 <hr>
 <br>
 
 ### Tasting Notes
 
-**Nose:** Subtle floral notes reminiscent of summer meadows with fragrant orange blossom and soft piney juniper.
+**Nose:** オレンジの花の爽やかな香りと、ジュニパーのほのかな香りを特徴とした、夏の草原を思わせるフローラルの繊細な香り
 
-**Palate:** Delicate, floral notes of lavender with sweet bursts of fresh orange.
+**Palate:** ラベンダーのかすかなフローラル風味と、口に広がる甘く新鮮なオレンジの味わい
 
-**Finish:** Refreshingly dry, clean and balanced with a lingering hint of bitter-sweet marmalade.
+**Finish:** 口にほのかに残るほろ苦いマーマレードとのバランスが取れた、ドライですっきりとした爽快な後味

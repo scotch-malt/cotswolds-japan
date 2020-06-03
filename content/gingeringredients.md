@@ -8,15 +8,15 @@ pagetype: gins
 ---
 ### The finest ingredients
 
-Candied ginger root and fresh Valencian sweet orange peel, soaked in our Cotswolds Dry Gin, which has been barrel aged. Sweetened with a touch of honey. <br> <br>
+砂糖漬けジンジャー、新鮮で甘いバレンシアオレンジの皮を、樽熟成させたコッツウォルズ・ドライジンに浸漬し、少量の蜂蜜で甘みを加えています <br> <br>
 
 <hr>
 <br>
 
 ### Tasting Notes
 
-**Nose:** Warm honey and sweet orange notes balance the fresh spicy ginger and piney juniper.
+**Nose:** 温かな蜂蜜と甘いオレンジの香りが、フレッシュでスパイシーなジンジャーとジュニパーの香りにマッチ
 
-**Palate:** Incredibly rich and luxurious, the ginger warms everything through, with vanilla and red fruit notes from the casks.
+**Palate:** 樽由来のバニラとレッドフルーツの風味を伴った、体全体を、最初から最後まで温めてくれる芳醇で贅沢なジンジャーの味わい
 
-**Finish:** A lovely long finish full of dry oak spice and ginger, with lots more honey.
+**Finish:** 味わい深い蜂蜜と、ドライなオークのスパイスとジンジャーの心地よく長いフィニッシュ

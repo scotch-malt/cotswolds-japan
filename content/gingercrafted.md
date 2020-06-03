@@ -7,11 +7,11 @@ pagetype: "gins"
 ---
 
 ### Lovingly crafted 
-We start with our Cotswolds Dry Gin. Distilled to 83% ABV, we dilute it to 65% ABV for casking – just the right strength to extract fantastic flavour and colour from the wood without drawing out the harsher notes. It goes into the same casks as our flagship Single Malt Whisky – first-fill ex-Bourbon barrels and shaved, toasted and recharred red wine casks, where it matures for three months. We then add fresh sweet Valencian orange peel to the matured gin, and candied root ginger. These soak in the gin for several weeks, getting a good stir every few days. Finally, we add a touch of honey to sweeten and dilute to 46% ABV before bottling here at the distillery.
+このジンの製造は、コッツウォルズ・ドライジンの蒸溜から始まります。蒸留後、83%のアルコール分を、不快な香りを引き出すことなく、木樽から優れた風味と色を抽出するのに最適な65%に調整し、樽詰めします。コッツウォルズ蒸溜所を代表するシングルモルトウイスキーと同じ樽を使用。ファーストフィルのバーボン樽とシェービング、トースティング、リチャーリングを施した赤ワイン樽で3か月間熟成させます。その後、熟成させたジンに、新鮮で甘いバレンシアオレンジの皮と砂糖漬けジンジャーを加え、数週間浸漬させて、数日おきに攪拌を行います。最後に、少量の蜂蜜で甘みを加え、アルコール分を46%に調整してから蒸溜所内で瓶詰めします。
 <br>
 <br>
 <hr>
 <br>
 
 ### Serving suggestions
-This is a rich and warming sipping gin, perfect neat or over ice. The addition of a few drops of Angostura Bitters adds a delicious extra element, or for chillier winter evenings, try adding to warmed apple juice.
+リッチで温かな飲み口のジンですので、ストレートでも、オンザロックでも美味しくいただけます。アンゴスチュラビターズを数滴加えると、さらに美味しさが引き立ちます。冬の寒い夜には、温めたリンゴジュースを加えてみてください。

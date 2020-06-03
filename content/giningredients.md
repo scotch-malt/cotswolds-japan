@@ -8,15 +8,17 @@ pagetype: gins
 ---
 ### The finest ingredients
 
-Quality – it’s what the nine carefully selected botanicals that go into our gin all have in common. Juniper berries, coriander seed and angelica root form the classic foundation for our London Dry-style Gin. We then add Cotswolds lavender from nearby Snowshill and bay leaves. The citrus element comes from freshly-peeled lime and pink grapefruit zest - unusually we use fresh peels rather than dried because of the greater quantity of essential oils. This entails peeling several hundred limes and grapefruits per week, by hand! The final botanicals are cardamom seed and black peppercorn, to give a hint of spice. Tough work, but totally worth it for the vibrant flavours and rich mouthfeel that make our gin stand out from the crowd. <br> <br>
+コッツウォルズ・ドライジンには、選び抜かれた9つのボタニカルが見事にブレンドされています。純粋なウィート（小麦）スピリッツにジュニパー、コリアンダー、アンジェリカルートを12時間浸漬させます。こうすることで、ひねりのきいた独自の「ロンドンドライスタイル」を確立しています。浸漬後、これらフレーバーが十分に抽出されたスピリッツに、コッツウォルズラベンダー、ベイリーフ、新鮮なグレープフルーツとライムの皮、黒コショウの実、カルダモンの種を加えて、特注のアーノルド・ホルスタイン社製のポットスチル（単式蒸溜器）で蒸溜します。 
+
+こうして生まれた香り豊かなスピリッツに、コッツウォルズの天然水を加えて仕上げます。口に含むとジュニパーの味わいが広がる、柑橘類とスパイスのパリッとした風味が効いた、クラシカルで、バランスのとれたジンです。
 
 <hr>
 <br>
 
 ### Tasting Notes
 
-**Nose:** Fresh notes of grapefruit with earthy coriander backed-up by sweet, piney juniper. A hint of perfumed Cotswolds lavender.
+**Nose:** グレープフルーツの新鮮な香りとコリアンダーの土っぽさ、ほのかな甘いジュニパーの香り。コッツウォルズラベンダーのかすかな香り。
 
-**Palate:** Clean, pine juniper spice with fresh citrussy grapefruit. A touch of dryness from the angelica root, with eucalyptus notes from bay leaf. Subtle lime and lavender.
+**Palate:** 新鮮なグレープフルーツとコリアンダシードが加わった、ジュニパースパイスのすっきりした味わい。ベイリーフからのユーカリの風味を伴った、アンジェリカルートのほのかに乾いた味わい。ライムとラベンダーの繊細な味わい。
 
-**Finish:** Clean and balanced. Juniper, citrus and some cooling notes from bay leaf and cardamom.
+**Finish:** ベイリーフとカルダモンの涼しげな香りを伴った、すっきりしたバランスのとれた、ジュニパーと柑橘類の後味が残る。

@@ -8,11 +8,11 @@ pagetype: gins
 ---
 ### The finest ingredients
 
-We add juniper, coriander and angelica to our flavourless base spirit, together with fresh orange peel, liquorice root, ground ginger, caraway and cardamom.  <br> <br>
+無味無臭のベーススピリッツに、ジュニパー、コリアンダー、アンジェリカとともに、新鮮なオレンジの皮、リコリスルート、ジンジャーの粉末、キャラウェイ、カルダモンを加えています。  <br> <br>
 
 <hr>
 <br>
 
 ### Tasting Notes
 
-Sweet, woody notes from liquorice root, balanced with light spice from the ginger, zesty orange citrus and rounded off with a hint of cardamom. 
+リコリスルートの甘いウッディーな香りと、軽やかでスパイシーなジンジャー、味わい豊かなオレンジの風味が絶妙にマッチし、ほのかなカルダモンの後味が残ります。 

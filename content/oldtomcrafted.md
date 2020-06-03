@@ -7,11 +7,11 @@ pagetype: "gins"
 ---
 
 ### Lovingly crafted 
-To make our Old Tom Gin, we add all of the botanicals to our 50-litre Holstein still, Valerie, along with 60% ABV ‘neutral grain spirit’, a base alcohol made from wheat which is completely flavourless. We then begin distillation, collecting only the purest part of the run known as the ‘hearts’, before adding a touch of sugar syrup in keeping with traditional Old Tom recipes and filtered water to bring the final bottling down to 42% ABV.
+コッツウォルズ・オールドトムジンの製造には、アーノルド・ホルスタイン社製の50L蒸溜器「ヴァレリー」を使用し、全てのボタニカルをアルコール分60%の「ニュートラルなグレーンスピリッツ」に加えて蒸溜します。小麦から作られたこのベーススピリッツは無味無臭です。この蒸溜で、安定した香味を感じる「ハート」と呼ばれる最も純粋な中留部分だけを取り出し、オールドトムの伝統的なレシピに従って、これに少量のシュガーシロップを加え、濾過水でアルコール分を42%に調整し瓶詰めします。
 <br>
 <br>
 <hr>
 <br>
 
 ### Serving suggestions
-We enjoy our Old Tom neat, garnished with fresh orange peel, or why not try a Tom Collins cocktail by adding lemon juice, soda and sugar syrup.
+ストレートに新鮮なオレンジの皮を添えて味わったり、レモンジュース、炭酸水、シュガーシロップを加えてトムコリンズのカクテルを楽しんだりみてはいかがでしょうか。

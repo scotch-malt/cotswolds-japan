@@ -7,13 +7,13 @@ pagetype: "gins"
 ---
 
 ### Lovingly crafted 
-Quantity matters. We put about 10x the average volume of botanicals used to make most premium gins in our copper pot still. This process creates the richest possible flavours and mouthfeel due to the high proportion of essential oils and botanical extract. These flavour-rich oils are the reason our gin goes from clear to cloudy when tonic or ice is added. The pearlescent glow, also known as a ‘louche’, happens because we choose not to chill-filter our gin to remove the oils as this would reduce the rich flavour and mouthfeel.
+コッツウォルズ・ドライジンには、選び抜かれた9つのボタニカルが見事にブレンドされています。最高に芳醇で、香り豊かなスピリッツを製造するため、蒸溜ごとにこれらのボタニカルを10kg強（通常のプレミアムロンドンドライジンの約10倍もの量）を使用しています。手剥きによるピンクグレープフルーツとライムの皮、コッツウォルズラベンダーなど、どれも最高品質のボタニカルばかりです。ボタニカルからは、豊富なエッセンシャルオイルが抽出されます。オンザロックやジントニックにしてお飲みいただければ、このジン特有の真珠のような濁りをお楽しみになれます。
 
-What do we mean by purity? It’s what we throw away that makes what we keep so special. The slower we run the stills and the more heads and tails (unpleasant beginning and end of the run) we discard, the purer the gin will taste. Our 'heart cut' is rested for 5 days to allow the flavours to marry. The only thing added before bottling is demineralised water to reduce the strength. This process, known as ‘single-shot distillation’, creates a superior gin. We never 'stretch' the batch by adding more neutral spirit (known as 'multi-shot'), so the gin we distil is the gin you drink.
+この純粋なスピリッツは、「ワンショット蒸溜（ボタニカルを浸漬した液をまとめて一度に蒸溜する）」製法で作られます。ほとんどのジンは、「マルチショット蒸溜（狙う倍量のボタニカルを蒸溜する）」製法をとっており、ボタニカル濃縮原酒にニュートラルスピリッツを加えて調整されます。一方、コッツウォルズ・ドライジンは、ボタニカル濃縮原酒から製造されることはありません。あなたが口にするコッツウォルズ・ドライジンは、美しい銅製ポットスチル（単式蒸溜器）から生まれたジンです。驚くほどバランスのとれた、芳醇で、香り豊かなスピリッツ。ワールドジンアワード2016で「ワールドベストロンドンドライジン」に輝くなど、数々の受賞がそのことを証明しています。
 <br>
 <br>
 <hr>
 <br>
 
 ### Serving suggestions
-Delicious sipped over ice, this gin also stands up very well to tonic. For the perfect Cloudy G&T, fill a large balloon glass with ice, pour over a generous measure of gin, top with a splash of classic tonic water - watch the cloud appear! Garnish with a slice of pink grapefruit and a fresh bay leaf.
+オンザロックで少量ずつ飲んでも美味しいですし、トニックウォーターで割ってもその味にも負けないしっかりした味です。その滑らかな味わいは、マティーニに最適です。またネグローニなら、ほかにない風味が付け加わります。ジントニックを美味しく味わうには、氷をたっぷりと入れたコパグラスに、コッツウォルズ・ドライジンを注ぎ、トニックウォーターを加え、ピンクグレープフルーツのスライスと新鮮なベイリーフの葉を添えてください。

@@ -7,11 +7,11 @@ pagetype: "gins"
 ---
 
 ### Lovingly crafted 
-We begin making our No.1 Wildflower Gin by distilling a London Dry base which contains juniper, coriander and angelica root in our 500L Holstein still, Lorelei, taking only the purest part of the spirit run known as the ‘hearts’. We then blend the spirit with the finest essences of orange, lavender, cornflowers and rhubarb root before adding a touch of sugar syrup and filtered water to bring the final bottling down to 41.7% ABV.
+No.1ワイルドフラワージンの製造は、ロンドンドライジンの蒸溜から始まります。ベーススピリッツにジュニパー、コリアンダー、アンジェリカルートを加えて、アーノルド・ホルスタイン社製の500L蒸溜器「ローレライ」で蒸溜し、安定した香味を感じる「ハート」と呼ばれる最も純粋な中留部分だけを取り出します。これにオレンジ、ラベンダー、コーンフラワー、ルバーブルートから抽出した最高級のエッセンスをブレンドし、少量のシュガーシロップを加え、濾過水でアルコール分を41.7%に調整し瓶詰めします。
 <br>
 <br>
 <hr>
 <br>
 
 ### Serving suggestions
-Our No.1 Wildflower Gin is delicious served as a spritz mixed with premium tonic and a slice of orange.
+プレミアムトニックウォーターを混ぜて、オレンジのスライスを添え、美味しいジントニックをお楽しみください。
