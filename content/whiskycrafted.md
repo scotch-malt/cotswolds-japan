@@ -7,13 +7,15 @@ pagetype: "whiskies"
 ---
 
 ### Lovingly crafted 
-We use traditional production processes and equipment to produce our Cotswolds Single Malt. Locally-grown malted barley is milled and then mashed in our 0.5-tonne mash tun, mixing the milled grain with hot water to produce worts. Yeasts are then added. We run the fermentation for more than 90 hours in order to generate plenty of fruity flavour compounds alongside the alcohol produced.
+コッツウォルズ・シングルモルトウイスキーは、コッツウォルズで育った大麦だけを使用し、この地で「穀物からグラス」への工程を経て製造されています。この大麦の麦芽を粉砕し、4日間発酵させてから、特注の銅製ポットスチル（単式蒸溜器）で二度蒸溜を行います。その後、プレミアムバーボン樽と、調整を施した赤ワイン樽で熟成させてから、ヴァッティング作業を経て、当地で瓶詰めされます。
 
-Then the distillations begin. First, in the wash still (Mary), and the second in Janis, our spirit still. In the spirit run, we only select a small section – the heart cut – which is taken unusually early in the distillation to capture the fruity notes and avoid the heavier, rougher elements that appear at the end of the run. The end result is a light, colourless, fruity new-make spirit. This is diluted to 63.5% ABV and put into casks to mature. This release has been aged for just over three years, and is bottled non-chill filtered, with no added colouring, at 46% ABV.
+コッツウォルズ蒸溜所は、業界を代表する専門家ハリー・コックバーンとジム・スワン博士の指導のもと、2014年にのどかなノースコッツウォルズの地で製造を開始しました。同年9月にシングルモルトのファーストカスクの熟成を開始して以来、3,000を上回るさまざまな種類の樽でウイスキーを熟成させてきました。
+
+若いスピリッツながら、『ジム・マレー・ウイスキー・バイブル』の2016年、2017年、2018年、2019年版で94ポイント以上を獲得し続けています。この他に、『ウイスキーマガジン』誌の2018年「アイコンズ・オブ・ウイスキー」など、数々の賞を受賞しています。
 <br>
 <br>
 <hr>
 <br>
 
 ### Serving suggestions
-We don’t believe in rules when it comes to enjoying whisky – sip this neat, over ice, in a cocktail – however you like!
+ウイスキーを楽しむのにルールなどありません。ストレートでも、オンザロックでも、カクテルでも、お好きな飲み方でお楽しみください。

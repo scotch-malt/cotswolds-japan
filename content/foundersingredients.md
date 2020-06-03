@@ -7,21 +7,21 @@ pagetype: "whiskies"
 ---
 
 ### Carefully sourced ingredients 
-**Malt:** Odyssey, grown on Cotswolds farms and floor-malted at Warminster Maltings.
+**Malt:** コッツウォルズ産の大麦オデッセイ種を、ウォーミンスターの麦芽製造所でフロアモルティング
 
-**Yeast:** Two complementary varieties - Anchor and Fermentis - to ensure good yields and excellent fruity flavours.
+**Yeast:** 十分な生産量を確保し、フルーティーで豊かな風味を生み出すため、アンカー社とファーメンティス社の酵母2品種を補完的に使用
 
-**Water:** Village water supply - filtered, softened and demineralised before use.
+**Water:** 現地の水源からの水を使用前に濾過、軟化、脱塩して使用
 
-**Wood:** Shaved, toasted and re-charred 225-litre American oak red wine barriques, made for us at the cooperage in Portugal in a process designed by the late Dr Jim Swan.
+**Wood:** シェービング、トースティング、リチャーリングを施したアメリカンオーク製の赤ワイン樽
 <br>
 <br>
 <hr>
 <br>
 
 ### Tasting Notes
-**Nose:** Dry hay and cut wood, with dark chocolate and dried figs, and plums in sweet syrup.
+**Nose:** ダークチョコレートと干しイチジク、甘いシロップに浸したプラムの香りを伴った、乾いた干し草と切り株の香り。
 
-**Palate:** Warming cereal and toast notes, with lots of fresh red fruits and butterscotch
+**Palate:** 新鮮なレッドフルーツとバタースコッチの豊かな味わいを含んだ、穀物とトーストのような暖かな香ばしさ。
 
-**Finish:** Hints of spicy oak, lots of dried fruit and a lingering nutty, dry note.
+**Finish:** スパイシーでほのかなオークの後味、豊かなドライフルーツと口に残るナッツの乾いた後味。

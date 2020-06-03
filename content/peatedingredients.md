@@ -7,21 +7,21 @@ pagetype: "whiskies"
 ---
 
 ### Carefully sourced ingredients 
-**Malt:** Odyssey, grown on Cotswolds farms and floor-malted at Warminster Maltings.
+**Malt:** コッツウォルズ産の大麦オデッセイ種を、ウォーミンスターの麦芽製造所でフロアモルティング
 
-**Yeast:** Two complementary varieties - Anchor and Fermentis - to ensure good yields and excellent fruity flavours.
+**Yeast:** 十分な生産量を確保し、フルーティーで豊かな風味を生み出すため、アンカー社とファーメンティス社の酵母2品種を補完的に使用
 
-**Water:** Village water supply - filtered, softened and demineralised before use.
+**Water:** 現地の水源からの水を使用前に濾過、軟化、脱塩して使用
 
-**Wood:** Ex-peated quarter casks from Scotland.
+**Wood:** スコットランド産のピーテッドクオーターカスクを使用
 <br>
 <br>
 <hr>
 <br>
 
 ### Tasting Notes
-**Nose:** Vanilla with light charring and a touch of dried fruits and spice.
+**Nose:** ほのかに焦げたようなバニラの香りと、かすかなドライフルーツとスパイスの香り
 
-**Palate:** Creamy peat smoke layered with light fruits and tannin-rich wood.
+**Palate:** クリーミーなピートの燻香と層をなす、軽やかなフルーツとタンニン豊かな木の味わい
 
-**Finish:** Lasting finish of smoking embers, floral honey and woody sugars.
+**Finish:** フローラルハニーと木の甘味を含んだ、残り火がくすぶるような長いフィニッシュ

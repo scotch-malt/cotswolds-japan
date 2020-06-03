@@ -20,8 +20,8 @@ pagetype: "whiskies"
 <br>
 
 ### Tasting Notes
-**Nose:** Notes of honey and butterscotch layered with light fruits (peaches & apricots), a hint of marzipan.
+**Nose:** かすかなマジパンの香りと、軽やかなフルーツ（桃とアプリコット）の香りが重なる、蜂蜜とバタースコッチの香り。
 
-**Palate:** Strong notes of tannin-rich malt, oils and dark sugar with lots of spice, caramelised Seville orange marmalade.
+**Palate:** カラメリゼされたセビリアオレンジのマーマレード風味が加わった、スパイスの効いた、豊かなタンニン（渋み）を含んだモルトとオイル、ダークシュガーが際だつ味わい。
 
-**Finish:** Long and resinous, with dark red fruits and a hint of treacle.
+**Finish:** ダークレッドフルーツとかすかな糖蜜の味わいを含む、樹脂のような後味が長く残る。
