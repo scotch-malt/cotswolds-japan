@@ -55,7 +55,7 @@ const Index = ({data}) => {
                                 />
                                 <Carousel.Caption>
                                 <h1>NEW: WILDFLOWER GIN</h1>
-                                <p>Inspired by the glorious grasslands of the Cotswolds, meet our latest gin: Cotswolds No. 1 Wildflower Gin - fresh, floral & fruity.</p>
+                                <p>コッツウォルズに広がる美しい草原からインスピレーションを得て生まれた、No.1ワイルドフラワージン。フレッシュでフローラル、フルーティーな味わいをお楽しみください。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -67,7 +67,7 @@ const Index = ({data}) => {
 
                                 <Carousel.Caption>
                                 <h1>SINGLE MALT WHISKY</h1>
-                                <p>Made with 100% locally grown barley. Rich, fruity and sippable</p>
+                                <p>100%コッツウォルズ産のフロアモルティングモルトを使用。フルーティで豊かな味わいのシングルモルトです。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -79,7 +79,7 @@ const Index = ({data}) => {
 
                                 <Carousel.Caption>
                                 <h1>DRY GIN</h1>
-                                <p>Made with nine carefully considered botanicals including local lavender and freshly peeled pink grapfruit and lime zest.</p>
+                                <p>無濾過で瓶詰めされた、豊かなフレーバー際立つジン。オンザロックやジントニックにしてお飲みいただければ、天然のボタニカルオイルが真珠のような濁りをお楽しみになれます。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
