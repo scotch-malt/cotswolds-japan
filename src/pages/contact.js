@@ -27,9 +27,8 @@ const Contact = ({data}) => {
                         <div className="contact-main-content-wrap-info">
                             <div dangerouslySetInnerHTML={{__html: distilleryInfo}} />
                             <div className="contact-main-content-wrap-info-social">
-                              <img src={Facebook} alt="Facebook" className="img-fluid" title="Facebook"/>
-                              <img src={Instagram} alt="Instagram" className="img-fluid" title="Instagram"/>
-                              <img src={Twitter} alt="Twitter" className="img-fluid" title="Twitter"/>
+                              <a href="https://www.facebook.com/cotswoldsdistilleryjapan/" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook" className="img-fluid" title="Facebook"/></a>
+                              <a href="https://instagram.com/cotswoldsdistilleryjapan?igshid=79d8xs9l70ub" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram" className="img-fluid" title="Instagram"/></a>
                             </div>
                         </div>
                         <div className="contact-main-content-wrap-form">
