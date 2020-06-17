@@ -5,8 +5,8 @@ import Footer from "../components/footer";
 import { Carousel} from "react-bootstrap";
 
 import WFGin from "../images/wf_gin_slider.jpg";
-import Whisky from "../images/whisky_slider.jpg";
-import DryGin from "../images/dry_gin_slider.jpg"
+import Whisky from "../images/whisky_slider2.jpg";
+import DryGin from "../images/dry_gin_slider2.jpg"
 import Design from "../images/design.png";
 import WSC from "../images/awards/2019_HKIWSC_100.jpg";
 import JBC from "../images/awards/2019-judging-best-class100.jpg";
@@ -19,8 +19,8 @@ import SF from "../images/awards/SFWSC-Double-Gold_3_768x.jpg";
 import TM from "../images/awards/Taste_Master_2019_GIN_100.jpg";
 import WG from "../images/awards/world-gin-2016-100.jpg";
 import WWA from "../images/awards/WWA19-CatWinner_732x.jpg";
-import WhiskyStill from "../images/whisky_and_still.jpg";
-import GinStill from "../images/gin_and_still.jpg";
+import WhiskyStill from "../images/whisky_and_still2.jpg";
+import GinStill from "../images/gin_and_still2.jpg";
 import Cotswolds from "../images/cotswolds.jpg";
 
 import "../styles/index.scss";
