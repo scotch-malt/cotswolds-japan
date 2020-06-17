@@ -101,7 +101,7 @@ const Index = ({data}) => {
                     </div>
                 </div>
                 <div className="main-body-middle-content">
-                    <div className="main-body-middle-content-awards pb-5">
+                    {/* <div className="main-body-middle-content-awards pb-5">
                         <img width={90} src={SF} alt="" className="img-fluid"/>
                         <img width={90} src={WSC} alt="" className="img-fluid"/>
                         <img width={90} src={JBC} alt="" className="img-fluid"/>
@@ -113,7 +113,7 @@ const Index = ({data}) => {
                         <img width={90} src={WB} alt="" className="img-fluid"/>
                         <img width={90} src={TR} alt="" className="img-fluid"/>
                         <img width={90} src={IWSC_Gold} alt="" className="img-fluid"/>
-                    </div>
+                    </div> */}
                     <div className="main-body-middle-content-products">
                         <div className="main-body-middle-content-products-wrapper">
                             <h2 className="text-center">Our Whiskies</h2>
