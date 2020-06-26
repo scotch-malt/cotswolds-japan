@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { Navbar, Nav} from "react-bootstrap";
+import Img from "gatsby-image";
 import Logo from "../images/cotswolds_logo.png";
 import "../styles/header.scss";
 
@@ -8,6 +9,14 @@ const Header = () => {
     const data = useStaticQuery(
         graphql`
           query {
+            file(relativePath: { eq: "cotswolds_logo.png" }) {
+              childImageSharp {
+                # Specify the image processing specifications right in the query.
+                fluid(maxWidth: 600, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             allMarkdownRemark(
              limit: 20
            ) {
@@ -52,7 +61,12 @@ const Header = () => {
           <Navbar className="header-nav px-5" collapseOnSelect expand="lg" bg="white" variant="light">
             <div className="navbar-brand">
               <div className="header-nav-logo">
-                <Link to="/"><img width={200} className="img-fluid" src={Logo} alt=""/></Link>
+                <Link to="/">
+                  <Img
+                    fluid={data.file.childImageSharp.fluid} 
+                  />
+                  {/* <img width={200} className="img-fluid" src={Logo} alt=""/> */}
+                  </Link>
               </div>
             </div>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
