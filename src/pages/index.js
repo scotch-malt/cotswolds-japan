@@ -34,8 +34,11 @@ const Index = ({data}) => {
     const { allMarkdownRemark } = data
     
     const sliderImg = ["wf_gin_slider.jpg", "whisky_slider2.jpg", "dry_gin_slider2.jpg"];
+    const productsImg = ["whisky_and_still2.jpg", "gin_and_still2.jpg"];
 
     let slider = [];
+    let spirits = []; 
+
 
     data.allFile.edges.forEach(edge => {
         sliderImg.forEach(item => {
@@ -44,7 +47,15 @@ const Index = ({data}) => {
             }
         });
     })
-    console.log(slider)
+
+    data.allFile.edges.forEach(edge => {
+        productsImg.forEach(item => {
+            if (item === edge.node.base) {
+                spirits.push(<Img className="img-fluid" fluid={edge.node.childImageSharp.fluid} alt={edge.node.base.split(".")[0]} style={{width: "100%"}} />)
+            }
+        });
+    })
+
     let our_distillery = "";
 
     allMarkdownRemark.edges.forEach((edge, i) => {
@@ -99,14 +110,27 @@ const Index = ({data}) => {
                         <div className="main-body-top-content-products-wrapper">
                                 <h2 className="text-center">Our Gins</h2>
                                 <Link className="product-links" to="/ourgins" >
-                                    <img src={GinStill} alt="" className="img-fluid"/>
+                                    <div style={{width: "25vw"}}>
+                                        {spirits.map((image, i) => {
+                                            if (image.props.alt === "gin_and_still2") {
+                                                return image
+                                            }
+                                        })}
+                                    </div>
                                 </Link>
                         </div>
                         <p className="spacer" />
                         <div className="main-body-top-content-products-wrapper">
                                 <h2 className="text-center">Our Whiskies</h2>
                                 <Link className="product-links" to="/ourwhiskies" >
-                                    <img src={WhiskyStill} alt="" className="img-fluid "/>
+                                    <div style={{width: "25vw"}}>
+                                        {spirits.map((image, i) => {
+                                            if (image.props.alt === "whisky_and_still2") {
+                                                return image
+                                            }
+                                        })}
+                                    </div>
+                                    {/* <img src={WhiskyStill} alt="" className="img-fluid "/> */}
                                 </Link>
                         </div>
                     </div>
@@ -129,14 +153,28 @@ const Index = ({data}) => {
                         <div className="main-body-middle-content-products-wrapper">
                             <h2 className="text-center">Our Whiskies</h2>
                             <Link className="product-links" to="/ourwhiskies" >
-                                <img src={WhiskyStill} alt="" className="img-fluid"/>
+                                <div style={{width: "75vw", margin: "auto"}}>
+                                    {spirits.map((image, i) => {
+                                        if (image.props.alt === "whisky_and_still2") {
+                                            return image
+                                        }
+                                    })}
+                                </div>
+                                {/* <img src={WhiskyStill} alt="" className="img-fluid"/> */}
                             </Link>
                         </div>
                         <p className="spacer" />
                         <div className="main-body-middle-content-products-wrapper">  
                             <h2 className="text-center">Our Gins</h2>
                             <Link className="product-links" to="/ourgins">
-                                <img src={GinStill} alt="" className="img-fluid"/>
+                                <div style={{width: "75vw", margin: "auto"}}>
+                                    {spirits.map((image, i) => {
+                                        if (image.props.alt === "gin_and_still2") {
+                                            return image
+                                        }
+                                    })}
+                                </div>
+                                {/* <img src={GinStill} alt="" className="img-fluid"/> */}
                             </Link> 
                         </div>            
                     </div>
