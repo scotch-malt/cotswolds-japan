@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { Navbar, Nav} from "react-bootstrap";
-import Logo from "../images/logo.svg";
+import Logo from "../images/cotswolds_logo.png";
 import "../styles/header.scss";
 
 const Header = () => {
