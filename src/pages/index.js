@@ -61,21 +61,33 @@ const Index = ({data}) => {
                     <div className="main-body-top-content-carousel">
                         <Carousel>
                             <Carousel.Item>
-                                {slider[0]}
+                                {slider.map((image, i) => {
+                                    if (image.props.alt === "wf_gin_slider") {
+                                        return image
+                                    }
+                                })}
                                 <Carousel.Caption>
                                 <h1>NEW: WILDFLOWER GIN</h1>
                                 <p>コッツウォルズに広がる美しい草原からインスピレーションを得て生まれた、No.1ワイルドフラワージン。フレッシュでフローラル、フルーティーな味わいをお楽しみください。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                {slider[1]}
+                                {slider.map((image, i) => {
+                                    if (image.props.alt === "whisky_slider2") {
+                                        return image
+                                    }
+                                })}
                                 <Carousel.Caption>
                                 <h1>SINGLE MALT WHISKY</h1>
                                 <p>100%コッツウォルズ産のフロアモルティングモルトを使用。フルーティで豊かな味わいのシングルモルトです。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                               {slider[2]}
+                                {slider.map((image, i) => {
+                                    if (image.props.alt === "dry_gin_slider2") {
+                                        return image
+                                    }
+                                })}
                                 <Carousel.Caption>
                                 <h1>DRY GIN</h1>
                                 <p>無濾過で瓶詰めされた、豊かなフレーバー際立つジン。オンザロックやジントニックにしてお飲みいただければ、天然のボタニカルオイルが真珠のような濁りをお楽しみになれます。</p>
