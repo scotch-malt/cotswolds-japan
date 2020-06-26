@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import { Carousel} from "react-bootstrap";
@@ -31,7 +32,19 @@ import "typeface-kosugi";
 const Index = ({data}) => {
     console.log(data)
     const { allMarkdownRemark } = data
+    
+    const sliderImg = ["wf_gin_slider.jpg", "whisky_slider2.jpg", "dry_gin_slider2.jpg"];
 
+    let slider = [];
+
+    data.allFile.edges.forEach(edge => {
+        sliderImg.forEach(item => {
+            if (item === edge.node.base) {
+                slider.push(<Img className="d-block w-100" fluid={edge.node.childImageSharp.fluid} alt={edge.node.base.split(".")[0]} style={{border: "1px solid white"}} />)
+            }
+        });
+    })
+    console.log(slider)
     let our_distillery = "";
 
     allMarkdownRemark.edges.forEach((edge, i) => {
@@ -48,35 +61,21 @@ const Index = ({data}) => {
                     <div className="main-body-top-content-carousel">
                         <Carousel>
                             <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={WFGin}
-                                alt="New"
-                                />
+                                {slider[0]}
                                 <Carousel.Caption>
                                 <h1>NEW: WILDFLOWER GIN</h1>
                                 <p>コッツウォルズに広がる美しい草原からインスピレーションを得て生まれた、No.1ワイルドフラワージン。フレッシュでフローラル、フルーティーな味わいをお楽しみください。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={Whisky}
-                                alt="Whisky"
-                                />
-
+                                {slider[1]}
                                 <Carousel.Caption>
                                 <h1>SINGLE MALT WHISKY</h1>
                                 <p>100%コッツウォルズ産のフロアモルティングモルトを使用。フルーティで豊かな味わいのシングルモルトです。</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={DryGin}
-                                alt="Gin"
-                                />
-
+                               {slider[2]}
                                 <Carousel.Caption>
                                 <h1>DRY GIN</h1>
                                 <p>無濾過で瓶詰めされた、豊かなフレーバー際立つジン。オンザロックやジントニックにしてお飲みいただければ、天然のボタニカルオイルが真珠のような濁りをお楽しみになれます。</p>
@@ -147,6 +146,23 @@ export default Index;
 
 export const pageQuery = graphql`
 query indexQuery {
+    allFile(
+        filter: {
+          extension: { regex: "/(jpg)|(png)|(jpeg)/" }
+          
+        }
+      ) {
+        edges {
+          node {
+            base
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
   allMarkdownRemark {
     totalCount
     edges {
