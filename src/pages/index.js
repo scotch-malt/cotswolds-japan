@@ -33,7 +33,7 @@ const Index = ({data}) => {
     console.log(data)
     const { allMarkdownRemark } = data
     
-    const sliderImg = ["wf_gin_slider.jpg", "whisky_slider2.jpg", "dry_gin_slider2.jpg"];
+    const sliderImg = ["wf_gin_slider_evening.jpg", "whisky_slider2.jpg", "dry_gin_slider2.jpg"];
     const productsImg = ["whisky_and_still2.jpg", "gin_and_still2.jpg"];
 
     let slider = [];
@@ -73,7 +73,7 @@ const Index = ({data}) => {
                         <Carousel>
                             <Carousel.Item>
                                 {slider.map((image, i) => {
-                                    if (image.props.alt === "wf_gin_slider") {
+                                    if (image.props.alt === "wf_gin_slider_evening") {
                                         return image
                                     }
                                 })}
@@ -153,7 +153,7 @@ const Index = ({data}) => {
                         <div className="main-body-middle-content-products-wrapper">
                             <h2 className="text-center">Our Whiskies</h2>
                             <Link className="product-links" to="/ourwhiskies" >
-                                <div style={{width: "75vw", margin: "auto"}}>
+                                <div style={{width: "40vw", margin: "auto"}}>
                                     {spirits.map((image, i) => {
                                         if (image.props.alt === "whisky_and_still2") {
                                             return image
@@ -167,7 +167,7 @@ const Index = ({data}) => {
                         <div className="main-body-middle-content-products-wrapper">  
                             <h2 className="text-center">Our Gins</h2>
                             <Link className="product-links" to="/ourgins">
-                                <div style={{width: "75vw", margin: "auto"}}>
+                                <div style={{width: "40vw", margin: "auto"}}>
                                     {spirits.map((image, i) => {
                                         if (image.props.alt === "gin_and_still2") {
                                             return image
