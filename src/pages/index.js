@@ -5,9 +5,6 @@ import Layout from "../components/layout";
 import Footer from "../components/footer";
 import { Carousel} from "react-bootstrap";
 
-import WFGin from "../images/wf_gin_slider.jpg";
-import Whisky from "../images/whisky_slider2.jpg";
-import DryGin from "../images/dry_gin_slider2.jpg"
 import Design from "../images/design.png";
 import WSC from "../images/awards/2019_HKIWSC_100.jpg";
 import JBC from "../images/awards/2019-judging-best-class100.jpg";
@@ -20,8 +17,6 @@ import SF from "../images/awards/SFWSC-Double-Gold_3_768x.jpg";
 import TM from "../images/awards/Taste_Master_2019_GIN_100.jpg";
 import WG from "../images/awards/world-gin-2016-100.jpg";
 import WWA from "../images/awards/WWA19-CatWinner_732x.jpg";
-import WhiskyStill from "../images/whisky_and_still2.jpg";
-import GinStill from "../images/gin_and_still2.jpg";
 import Cotswolds from "../images/cotswolds.jpg";
 
 import "../styles/index.scss";
@@ -37,13 +32,14 @@ const Index = ({data}) => {
     const productsImg = ["whisky_and_still2.jpg", "gin_and_still2.jpg"];
 
     let slider = [];
-    let spirits = []; 
+    let spirits = [];
+    let news = []; 
 
 
     data.allFile.edges.forEach(edge => {
         sliderImg.forEach(item => {
             if (item === edge.node.base) {
-                slider.push(<Img className="d-block w-100" fluid={edge.node.childImageSharp.fluid} alt={edge.node.base.split(".")[0]} style={{border: "1px solid white"}} />)
+                slider.push(<Img className="d-block w-100" fluid={edge.node.childImageSharp.fluid} alt={edge.node.base.split(".")[0]}  />)
             }
         });
     })
@@ -62,15 +58,17 @@ const Index = ({data}) => {
         if (edge.node.frontmatter.title === "OUR DISTILLERY") {
           our_distillery = edge.node.html 
         }
-        
+        if (edge.node.frontmatter.pagetype === "news") {
+            news.push(edge)
+        }  
     })
-
+    //console.log(news[0].node.frontmatter.image)
     return (
         <Layout>
             <div className="main-body">
                 <div className="main-body-top-content">
                     <div className="main-body-top-content-carousel">
-                        <Carousel>
+                        <Carousel className="main-body-top-content-carousel-main">
                             <Carousel.Item>
                                 {slider.map((image, i) => {
                                     if (image.props.alt === "wf_gin_slider_evening") {
@@ -130,8 +128,16 @@ const Index = ({data}) => {
                                             }
                                         })}
                                     </div>
-                                    {/* <img src={WhiskyStill} alt="" className="img-fluid "/> */}
                                 </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="main-body-news">
+                    <div className="main-body-news-content">
+                        <h2>The Latest News: </h2>
+                        <div className="main-body-news-content-post">
+                            <Img style={{width: "80px", marginRight: "20px", boxShadow: "1px 1px 5px black"}} fluid={news[0].node.frontmatter.image.childImageSharp.fluid} />
+                            <Link><h6>{news[0].node.frontmatter.title}</h6></Link>
                         </div>
                     </div>
                 </div>
@@ -222,6 +228,14 @@ query indexQuery {
           title 
           date 
           tags
+          pagetype
+          image {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         fields {
           slug

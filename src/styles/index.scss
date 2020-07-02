@@ -25,10 +25,41 @@ html, body {
     &-products {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       margin: auto;
-      padding: 80px 0;
+      //padding: 80px 0;
       width: 50%;
+      height: 100%;
     }
+  }
+  &-news {
+    background: goldenrod;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    &-content {
+      width: 60%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      & h2 {
+        font-size: 3vw;
+        text-align: center;
+      }
+      &-post {
+        //width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        & a {
+          text-decoration: underline;
+          color: green;
+        }
+      }
+    }
+    
   }
   &-middle-content {
     padding: 50px 0;
