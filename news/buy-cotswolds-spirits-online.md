@@ -1,10 +1,17 @@
 ---
-title: "Buy Cotswolds Spirits Online and Drink at Home"
+title: "7月 Founder's Choice オンライン発売"
 date: "2020-07-01"
 published: true
 tags: ["gin", "whisky", "shop", ]
-image: ../src/images/cotswolds_martini_news.jpg
+image: ../src/images/founders_choice_square.jpg
 pagetype: "news"
 ---
 
-Buy our award-winning whiskies and gins online at Saketry.
+STRカスク（シェービング、トースティング、リチャーリングを施したアメリカンオーク製の赤ワイン樽）から加水せずに瓶詰めされたものです。
+
+このユニークな生きたカスク（樽）が、コッツウォルズ蒸溜所で生まれるフルーティなスピリッツに、豊かな芳醇さを加味し、トフィー、オーク、
+
+レッドフルーツの風味、そして美しく深い色合いを生み出しています。
+
+香り：ダークチョコレートと干しイチジク、甘いシロップに浸したプラムの香りを伴った、乾いた干し草と切り株の香り。
+味わい：新鮮なレッドフルーツとバタースコッチの豊かな味わいを含んだ、穀物とトーストのような暖かな香ばしさ。
