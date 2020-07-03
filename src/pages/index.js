@@ -166,7 +166,6 @@ const Index = ({data}) => {
                                         }
                                     })}
                                 </div>
-                                {/* <img src={WhiskyStill} alt="" className="img-fluid"/> */}
                             </Link>
                         </div>
                         <p className="spacer" />
@@ -180,7 +179,6 @@ const Index = ({data}) => {
                                         }
                                     })}
                                 </div>
-                                {/* <img src={GinStill} alt="" className="img-fluid"/> */}
                             </Link> 
                         </div>            
                     </div>

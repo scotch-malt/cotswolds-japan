@@ -27,7 +27,6 @@ html, body {
       justify-content: space-between;
       align-items: center;
       margin: auto;
-      //padding: 80px 0;
       width: 50%;
       height: 100%;
     }
@@ -49,7 +48,6 @@ html, body {
         text-align: center;
       }
       &-post {
-        //width: 60%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -113,9 +111,24 @@ a {
 
 @media only screen and (max-width: 1300px) {
   .main-body {
+    &-news {
+      &-content {
+        width: 70%;
+      }
+    }
     &-middle-content {
       &-description {
         width: 55%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-body {
+    &-news {
+      &-content {
+        width: 80%;
       }
     }
   }
@@ -142,6 +155,11 @@ a {
 
 @media only screen and (max-width: 1000px) {
   .main-body {
+    &-news {
+      &-content {
+        width: 95%;
+      }
+    }
     &-middle-content {
       &-awards {
         display: grid;
@@ -168,6 +186,19 @@ a {
         }
         & p {
           font-size: 1.125rem;
+        }
+      }
+    }
+    &-news {
+      &-content {
+        width: 100%;
+        & h2 {
+          font-size: 3.5vw;
+        }
+        &-post {
+          & h6 {
+            font-size: 3vw;
+          }
         }
       }
     }
