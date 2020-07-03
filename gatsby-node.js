@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const aboutPage = path.resolve(`./src/templates/aboutTemplate.js`);
   const whiskyPage = path.resolve(`./src/templates/whiskyTemplate.js`);
   const ginPage = path.resolve(`./src/templates/ginTemplate.js`);
+  const newsPage = path.resolve(`./src/templates/newsTemplate.js`);
   const result = await graphql(`
     query {
       allMarkdownRemark {
@@ -50,6 +51,14 @@ exports.createPages = async ({ graphql, actions }) => {
       createPage({
         path: node.fields.slug,
         component: ginPage,
+        context: {
+          slug: node.fields.slug
+        }
+      });
+    } else if (node.frontmatter.pagetype === `news`) {
+      createPage({
+        path: node.fields.slug,
+        component: newsPage,
         context: {
           slug: node.fields.slug
         }

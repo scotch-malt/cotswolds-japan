@@ -137,7 +137,7 @@ const Index = ({data}) => {
                         <h2>The Latest News: </h2>
                         <div className="main-body-news-content-post">
                             <Img style={{width: "80px", marginRight: "20px", boxShadow: "1px 1px 5px black"}} fluid={news[0].node.frontmatter.image.childImageSharp.fluid} />
-                            <Link><h6>{news[0].node.frontmatter.title}</h6></Link>
+                            <Link to={news[0].node.fields.slug} ><h6>{news[0].node.frontmatter.title}</h6></Link>
                         </div>
                     </div>
                 </div>
