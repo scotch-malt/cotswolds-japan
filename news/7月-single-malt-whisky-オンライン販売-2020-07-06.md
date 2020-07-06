@@ -1,7 +1,7 @@
 ---
 title: 7月 Single Malt Whisky オンライン販売
 date: 2020-07-06T02:09:15.847Z
-image: /src/images/uploads/cotswolds_smw_square.jpg
+image: /src/images/uploads/202007_banner_cotswolds_b_news.jpg
 pagetype: news
 ---
 <!--StartFragment-->
