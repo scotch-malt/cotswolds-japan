@@ -3,6 +3,7 @@ backend:
   branch: master
 
 media_folder: "src/images/uploads"
+public_folder: "/src/images/uploads"
 
 collections:
   - name: "news"
