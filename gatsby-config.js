@@ -3,7 +3,21 @@ module.exports = {
         `gatsby-plugin-sass`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
-        `gatsby-transformer-remark`,
+        {
+          resolve: `gatsby-plugin-netlify-cms-paths`,
+          options: {
+            // Path to your Netlify CMS config file
+            cmsConfig: `/static/admin/config.yml`
+          }
+        },
+        {
+          resolve: `gatsby-transformer-remark`,
+          options: {
+            plugins: [
+              `gatsby-plugin-netlify-cms-paths`,
+            ],
+          },
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
