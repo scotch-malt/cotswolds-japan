@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import Gin from "../images/gin_bottle.jpg";
@@ -61,6 +62,7 @@ export default function WhiskyTemplate({data}) {
     
     return (
       <Layout>
+        <SEO title={`コッツウォルズ・ジン`} />
         <div className="products">
           <div className="products-page-wrapper">
           <h4 className="text-center mb-5" >COTSWOLDS DRY GIN</h4>

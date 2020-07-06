@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import Img from "gatsby-image";
@@ -8,6 +9,7 @@ const NewsTemplate = ({data}) => {
     const post = data.markdownRemark
     return (
         <Layout>
+            <SEO title={`ニュース`} />
             <div className="news">
                 <div className="news-main">
                     <h1 className="news-main-title">{post.frontmatter.title}</h1>

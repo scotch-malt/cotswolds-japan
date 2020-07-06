@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { Button } from "react-bootstrap";
+import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import OurSpirits from "../images/our_spirits.jpg";
@@ -28,6 +29,7 @@ export default function AboutTemplate({ data }) {
   
     return (
       <Layout>
+        <SEO title={`About`} />
         <div className="about">
           <div className="about-banner">
             <img width="100%" className="about-banner-full-image img-fluid" src={OurSpirits} alt=""/>
