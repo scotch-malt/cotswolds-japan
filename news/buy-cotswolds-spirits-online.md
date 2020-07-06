@@ -3,7 +3,7 @@ title: "7月 Founder's Choice オンライン発売"
 date: "2020-07-01"
 published: true
 tags: ["gin", "whisky", "shop", ]
-image: ../src/images/founders_choice_square.jpg
+image: ../src/images/uploads/founders_choice_square.jpg
 pagetype: "news"
 ---
 
