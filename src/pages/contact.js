@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 
@@ -20,6 +21,7 @@ const Contact = ({data}) => {
     })
     return (
         <Layout>
+          <SEO title={"コンタクト"} />
             <div className="contact">
                 <div className="contact-main-content">
                     <h1>CONTACT US</h1>

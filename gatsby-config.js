@@ -1,8 +1,14 @@
 module.exports = {
+    siteMetadata: {
+      title: `コッツウォルズ・ジャパン`,
+      siteUrl: `https://cotswoldsdistilleryjapan.com/`,
+      description: `コッツウォルズジンとウィスキーについてのオフィシャル情報サイト`
+    },
     plugins: [
         `gatsby-plugin-sass`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
+        `gatsby-plugin-react-helmet`,
         {
           resolve: `gatsby-plugin-netlify-cms-paths`,
           options: {
