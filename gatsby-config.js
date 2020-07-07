@@ -45,6 +45,13 @@ module.exports = {
               path: `${__dirname}/src/images/`,
             },
         },
-        `gatsby-plugin-netlify-cms`
+        `gatsby-plugin-netlify-cms`,
+        {
+          resolve: `gatsby-plugin-google-analytics`,
+          options: {
+            // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+            trackingId: "UA-171782298-1",
+          },
+        },
     ]
 }
