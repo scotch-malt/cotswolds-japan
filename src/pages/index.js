@@ -26,8 +26,7 @@ import "typeface-libre-baskerville";
 import "typeface-kosugi";
 
 const Index = ({data}) => {
-    console.log(data)
-    const title = data.site.siteMetadata.title
+    
     const { allMarkdownRemark } = data
     
     const sliderImg = ["wf_gin_slider_evening.jpg", "whisky_slider2.jpg", "dry_gin_slider2.jpg"];
@@ -64,7 +63,7 @@ const Index = ({data}) => {
             news.push(edge)
         }  
     })
-    //console.log(news[0].node.frontmatter.image)
+    
     return (
         <Layout>
             <SEO title={`ホーム`} />
@@ -137,7 +136,6 @@ const Index = ({data}) => {
                 </div>
                 <div className="main-body-news">
                     <div className="main-body-news-content">
-                        {/* <h2>The Latest News: </h2> */}
                         <div className="main-body-news-content-post">
                             <Img style={{width: "80px", marginRight: "20px", boxShadow: "1px 1px 5px black"}} fluid={news[0].node.frontmatter.image.childImageSharp.fluid} />
                             <Link to={news[0].node.fields.slug} ><h6>{news[0].node.frontmatter.title}</h6></Link>
