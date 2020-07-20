@@ -24,9 +24,10 @@ const Contact = ({data}) => {
           <SEO title={"コンタクト"} />
             <div className="contact">
                 <div className="contact-main-content">
-                    <h1>CONTACT US</h1>
+                <h1 style={{fontStyle: "italic", color: "red"}}>UNDER CONSTRUCTION</h1>
+                    <img style={{margin: "auto"}} width="219px" height="230px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKax0ZWP1Vg4Y5yfjIBBQND3OwamtcJsZk3A&usqp=CAU" alt=""/>
                     <div className="contact-main-content-wrap">
-                        <div className="contact-main-content-wrap-info">
+                        {/* <div className="contact-main-content-wrap-info">
                             <div dangerouslySetInnerHTML={{__html: distilleryInfo}} />
                             <div className="contact-main-content-wrap-info-social">
                               <a href="https://www.facebook.com/cotswoldsdistilleryjapan/" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook" className="img-fluid" title="Facebook"/></a>
@@ -53,7 +54,7 @@ const Contact = ({data}) => {
                               </ul>
                               <Button variant="info" type="submit">Submit</Button>{' '}
                             </form>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <Footer />
