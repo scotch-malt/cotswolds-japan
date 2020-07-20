@@ -185,7 +185,7 @@ const Index = ({data}) => {
                     </div>
                     <div className="main-body-middle-content-description">
                         <img src={Design} alt="" className="img-fluid pb-5"/>
-                        <h2 className="pt-2">Nestled in the heart of the beautiful Cotswolds countryside, producing Outstanding Natural Spirits since 2014</h2>
+                        <h2 className="pt-2">Welcome to the Cotwolds and Welcome to an Area of ‘Outstanding Natural Spirit’.</h2>
                         <div className="main-body-middle-content-description-body py-4" dangerouslySetInnerHTML={{__html: our_distillery}} />
                         <img src={Cotswolds} alt="" className="main-body-middle-content-description-cotswolds mt-4 img-fluid"/>
                     </div>
