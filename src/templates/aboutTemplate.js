@@ -1,13 +1,12 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { Button } from "react-bootstrap";
+import Img from "gatsby-image";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
 import OurSpirits from "../images/our_spirits.jpg";
 import OurSpiritsMobile from "../images/our_spirits_mobile.jpg";
-import Whisky from "../images/whisky.jpg";
-import Gin from "../images/gin.jpg";
 import Design from "../images/design.png";
 
 import "../styles/about.scss";
@@ -38,13 +37,12 @@ export default function AboutTemplate({ data }) {
           </div>
 
           <div className="about-page-wrapper">
-            {/* <h3 className="about-page-wrapper-heading">From our single malt whisky to our gins and liqueurs, everything we make at the Cotswolds Distillery is about quality and flavour above all else.</h3> */}
             <h3 className="about-page-wrapper-heading">コッツウォルズ蒸溜所では、少人数ながら、才能豊かな職人たちが、何よりも品質とフレーバーへの情熱に駆り立てられ、日々の製造に携わります。</h3>
             <hr/>
 
             <div className="about-page-wrapper-product">
               <div className="about-page-wrapper-product-image">
-                <img className="img-fluid" src={Whisky} alt=""/>
+                <Img fluid={data.whiskyImage.childImageSharp.fluid} />
               </div>
               <div className="about-page-wrapper-product-description">
                 <h3 className="text-center">OUR WHISKY</h3>
@@ -59,7 +57,7 @@ export default function AboutTemplate({ data }) {
 
             <div className="about-page-wrapper-product">
               <div className="about-page-wrapper-product-image">
-                <img className="img-fluid" src={Gin} alt=""/>
+                <Img fluid={data.ginImage.childImageSharp.fluid} />
               </div>
               <div className="about-page-wrapper-product-description">
                 <h3 className="text-center">OUR GIN</h3>
@@ -77,6 +75,20 @@ export default function AboutTemplate({ data }) {
 
 export const pageQuery = graphql`
 query aboutQuery {
+  whiskyImage: file(relativePath: {eq: "whisky.jpg"}) {
+    childImageSharp {
+      fluid(maxWidth: 600) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  ginImage: file(relativePath: {eq: "gin.jpg"}) {
+    childImageSharp {
+      fluid(maxWidth: 600) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
   allMarkdownRemark {
     totalCount
     edges {
