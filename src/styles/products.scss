@@ -25,24 +25,24 @@
                 &-mobile {
                     display: none;
                 }
-            }
-        }
-        &-button {
-            text-align: center;
-            &-unit {
-                margin: 50px auto;
-                padding: 10px;
-                color: white;
-                border: 1px solid transparent;
-                border-radius: 5px;
-                box-shadow: 1px 1px 7px gray;
-                font-family: Yu Gothic;
-                &:hover {
-                    border: 1px solid white;
-                    box-shadow: 1px 1px 7px white;
+                &-button {
+                    text-align: center;
+                    &-unit {
+                        margin: 50px auto;
+                        padding: 10px;
+                        color: white;
+                        border: 1px solid transparent;
+                        border-radius: 5px;
+                        box-shadow: 1px 1px 7px gray;
+                        font-family: Yu Gothic;
+                        &:hover {
+                            border: 1px solid white;
+                            box-shadow: 1px 1px 7px white;
+                        }
+                    }
+                    
                 }
             }
-            
         }
         &-awards {
             display: flex;
