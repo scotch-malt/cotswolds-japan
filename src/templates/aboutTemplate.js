@@ -38,7 +38,6 @@ export default function AboutTemplate({ data }) {
           </div>
 
           <div className="about-page-wrapper">
-            {/* <h3 className="about-page-wrapper-heading">From our single malt whisky to our gins and liqueurs, everything we make at the Cotswolds Distillery is about quality and flavour above all else.</h3> */}
             <h3 className="about-page-wrapper-heading">コッツウォルズ蒸溜所では、少人数ながら、才能豊かな職人たちが、何よりも品質とフレーバーへの情熱に駆り立てられ、日々の製造に携わります。</h3>
             <hr/>
 
