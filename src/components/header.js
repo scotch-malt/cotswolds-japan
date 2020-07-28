@@ -2,7 +2,6 @@ import React from "react";
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { Navbar, Nav} from "react-bootstrap";
 import Img from "gatsby-image";
-import Logo from "../images/cotswolds_logo.png";
 import "../styles/header.scss";
 
 const Header = () => {
