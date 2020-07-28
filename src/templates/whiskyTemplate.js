@@ -65,14 +65,15 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={Whisky} alt="Single Malt Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={WhiskyMobile} alt="Single Malt Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/111865.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: crafted }} />
               </div>
             </div>
-            <div className="products-page-wrapper-button">
-             <a href="https://www.saketry.com/111865.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-button-unit btn btn-primary">今すぐ購入</button></a>
-            </div>
+            
             <div className="products-page-wrapper-awards">
               <img src={HKIWSC} alt="Hong Kong International Wine Spirits" className="img-fluid"/>
               <img src={BWW} alt="Best World Whisky" className="img-fluid"/>
@@ -94,13 +95,13 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={FoundersChoice} alt="Founder's Choice Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={FoundersChoiceMobile} alt="Founder's Choice Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/111863.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                  </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: founderscrafted }} />
               </div>
-            </div>
-            <div className="products-page-wrapper-button">
-             <a href="https://www.saketry.com/111863.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-button-unit btn btn-primary">今すぐ購入</button></a>
             </div>
             <div className="products-page-wrapper-awards">
               <img src={IWSC} alt="IWSC" className="img-fluid"/>
