@@ -1,7 +1,7 @@
 {
-  "name": "cwgin",
+  "name": "cotswolds",
   "version": "1.0.0",
-  "description": "test page for Cotswold's Gin",
+  "description": "Cotswold's Gin Japanese Website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
