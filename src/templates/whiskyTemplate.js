@@ -96,7 +96,7 @@ export default function WhiskyTemplate({data}) {
                 <img src={FoundersChoice} alt="Founder's Choice Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={FoundersChoiceMobile} alt="Founder's Choice Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
                 <div className="products-page-wrapper-content-image-button">
-                  <a href="https://www.saketry.com/111863.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                  <a href="https://www.saketry.com/111885.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
                   </div>
               </div>
               <div className="products-page-wrapper-content-description">
