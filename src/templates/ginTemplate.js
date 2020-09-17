@@ -74,6 +74,9 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={Gin} alt="Dry Gin" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={GinMobile} alt="Dry Gin" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/208667.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: crafted }} />
@@ -100,6 +103,9 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={WFGin} alt="Wildflower No.1 Gin" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={WFGinMobile} alt="Wildflower No.1 Gin" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/208671.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: wildflowercrafted }} />
@@ -120,6 +126,9 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={OTGin} alt="Old Tom Gin" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={OTGinMobile} alt="Old Tom Gin" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/208672.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: oldtomcrafted }} />
@@ -140,6 +149,9 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={GingerGin} alt="Ginger Gin" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={GingerGinMobile} alt="Ginger Gin" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/208670.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: gingercrafted }} />

@@ -120,6 +120,9 @@ export default function WhiskyTemplate({data}) {
               <div className="products-page-wrapper-content-image">
                 <img src={PeatedCask} alt="Peated Cask Whisky" className="products-page-wrapper-content-image-desktop img-fluid"/>
                 <img src={PeatedCaskMobile} alt="Peated Cask Whisky" className="products-page-wrapper-content-image-mobile img-fluid"/>
+                <div className="products-page-wrapper-content-image-button">
+                  <a href="https://www.saketry.com/111864.html" target="_blank" rel="noopener noreferrer"><button className="products-page-wrapper-content-image-button-unit btn btn-primary">今すぐ購入</button></a>
+                </div>
               </div>
               <div className="products-page-wrapper-content-description">
                 <div className="about-page-wrapper-product-description-body" dangerouslySetInnerHTML={{ __html: peatedcrafted }} />
